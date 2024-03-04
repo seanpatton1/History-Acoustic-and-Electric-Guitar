@@ -13,17 +13,23 @@ header {
 #nav-links-header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
 }
 
 /* Body */
-main {
-    background-color: #583E23;
-}
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgba(88,62,35, .7);
+}
+
+#center-nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Footer */
