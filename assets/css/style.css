@@ -1,0 +1,50 @@
+/* wildcard selector added to overide default browser settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* general styles */
+header {
+    background-color: #73683B;
+}
+
+#nav-links-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* Body */
+main {
+    background-color: #583E23;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+footer {
+    background-color: #13262F;
+    margin-top: auto;
+}
+#social-media-links {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (min-width: 768px) {
+    /* Header */
+
+    header {
+        background-color: #73683B;
+    }
+
+}
