@@ -43,6 +43,12 @@ body {
     color: #000000;
 }
 
+.acoustic-one {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
 #center-nav-links {
     display: flex;
     flex-direction: column;
