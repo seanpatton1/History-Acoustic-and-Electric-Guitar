@@ -38,7 +38,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: url(../images/wall-2605478_1280.jpg);
     font-family: 'Baskervville', sans-serif;
     color: #000000;
 }
