@@ -23,7 +23,7 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     padding-bottom: 0px;
     padding-top: 0px;
@@ -56,8 +56,9 @@ body {
 
 /* Footer */
 footer {
-    background-color: #13262F;
-    margin-top: auto;
+    background-color: #000000;
+    color: white;
+    height: 100px;
 }
 #social-media-links {
     display: flex;
