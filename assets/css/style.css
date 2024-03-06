@@ -24,15 +24,8 @@ header {
     color: #7a0e0e;
     display: flex;
     justify-content: center;
-}
-
-#heading-two-mobile {
-    font-size: medium;
-    font-weight: bolder;
-    text-transform: uppercase;
-    color: #7a0e0e;
-    display: flex;
-    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #nav-links-header {
@@ -66,12 +59,26 @@ body {
     color: #000000;
 }
 
+#main-section-page-one {
+    position: relative;
+}
+
 #top-tagline {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     
+}
+
+.middle-image-one {
+    background: url(../images/latest\ guitar\ image.jpg);
+    height: 300px;
+    width: 100%;
+    position: relative;
+
 }
 
 #second-tagline {
