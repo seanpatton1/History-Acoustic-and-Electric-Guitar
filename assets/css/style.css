@@ -34,10 +34,11 @@ header {
     list-style-type: none;
     justify-content: space-between;
     align-content: center;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-bottom: 1px;
+    padding-top: 1px;
     background-color: #7a0e0e;
     border-radius: solid 2px;
+    text-decoration: none;
 }
 
 a:-webkit-any-link {
