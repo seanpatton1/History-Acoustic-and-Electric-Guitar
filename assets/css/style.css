@@ -14,14 +14,25 @@ html {
 
 /* general styles */
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 
 #heading-one-mobile {
     font-size: medium;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #000000;
+    color: #7a0e0e;
+    display: flex;
+    justify-content: center;
+}
+
+#heading-two-mobile {
+    font-size: medium;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #7a0e0e;
+    display: flex;
+    justify-content: center;
 }
 
 #nav-links-header {
@@ -32,7 +43,13 @@ header {
     align-content: center;
     padding-bottom: 0px;
     padding-top: 0px;
-    color: #000000;
+    background-color: #7a0e0e;
+    border-radius: solid 2px;
+}
+
+a:-webkit-any-link {
+    color: #ffffff;
+    font-weight: bolder;
 }
 
 footer ul a {
@@ -44,21 +61,24 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
     color: #000000;
-}
-
-.acoustic-one {
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
 }
 
 #top-tagline {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 50%;
     
+}
+
+#second-tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50%;
 }
 
 /* Footer */
