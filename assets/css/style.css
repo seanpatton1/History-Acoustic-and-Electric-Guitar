@@ -15,8 +15,9 @@ header {
 
 #heading-one-mobile {
     font-size: medium;
-    font-weight: bold;
+    font-weight: bolder;
     text-transform: uppercase;
+    color: #000000;
 }
 
 #nav-links-header {
@@ -27,6 +28,7 @@ header {
     align-content: center;
     padding-bottom: 0px;
     padding-top: 0px;
+    color: #000000;
 }
 
 footer ul a {
@@ -48,10 +50,11 @@ body {
     justify-content: center;
 }
 
-#center-nav-links {
+#top-tagline {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    font-size: 50%;
+    
 }
 
 /* Footer */
@@ -67,15 +70,5 @@ footer {
     color: white;
     list-style-type: none;
     justify-content: space-evenly;
-    padding-top: 20px;
-}
-
-
-@media screen and (min-width: 768px) {
-    /* Header */
-
-    header {
-        background-color: #73683B;
-    }
-
+    padding-top: 15px;
 }
