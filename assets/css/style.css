@@ -10,7 +10,7 @@
 
 /* general styles */
 header {
-    background-color: rgb(243, 242, 236);
+    background-color: rgb(255, 255, 255);
 }
 
 #heading-one-mobile {
@@ -67,6 +67,7 @@ footer {
     color: white;
     list-style-type: none;
     justify-content: space-evenly;
+    padding-top: 20px;
 }
 
 
