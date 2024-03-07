@@ -75,7 +75,7 @@ body {
 }
 
 .middle-image-one {
-    background: url(../images/latest\ guitar\ image.jpg);
+    background: url(../images/latest\ guitar\ image.jpg) no repeat center cover;
     height: 300px;
     width: 100%;
     position: relative;
