@@ -1,15 +1,11 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* wildcard selector added to overide default browser settings - used from love running project*/
-html {
-    box-sizing: border-box;
-}
-
-*, *::before, *::after {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 /* general styles */
@@ -69,16 +65,18 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 50%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
 .middle-image-one {
-    background: url(../images/latest\ guitar\ image.jpg) no repeat center cover;
+    background: url(../images/latest\ guitar\ image.jpg) no-repeat;
     height: 300px;
     width: 100%;
     position: relative;
+    background-size: cover;
+    justify-content: center;
 
 }
 
