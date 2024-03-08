@@ -68,7 +68,9 @@ body {
     font-size: 70%;
     padding-top: 5px;
     padding-bottom: 5px;
-    
+    background-color: #000000;
+    color: #7a0e0e;
+
 }
 
 .middle-image-one {
@@ -90,6 +92,8 @@ body {
     font-size: 70%;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .bottom-image-one {
@@ -110,6 +114,7 @@ footer {
     height: 50px;
     margin-top: auto;
 }
+
 #social-media-links {
     display: flex;
     flex-direction: row;
