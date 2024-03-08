@@ -10,18 +10,19 @@
 
 /* general styles */
 header {
-    background-color: #ffffff;
+    background-color: #7a0e0e;
 }
 
 #heading-one-mobile {
     font-size: medium;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #7a0e0e;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-bottom: 2px solid #ffffff;
 }
 
 #nav-links-header {
@@ -60,13 +61,13 @@ body {
     position: relative;
 }
 
-#top-tagline {
+#first-heading {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
     
 }
 
@@ -76,15 +77,30 @@ body {
     width: 100%;
     position: relative;
     background-size: cover;
-    justify-content: center;
-
-}
-
-#second-tagline {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50%;
+
+}
+
+#second-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bottom-image-one {
+    background: url(../images/electric\ guitar\ 1.jpg) no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
