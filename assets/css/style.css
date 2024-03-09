@@ -16,6 +16,9 @@ header {
     width: 100%;
     z-index: 99;
     padding-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* styles for dropdown menu, mobile view */
@@ -24,6 +27,22 @@ nav {
     position: absolute;
     width: 100%;
     right: 0;
+    display: none;
+    top: 100%;
+}
+
+.nav-dropdown-label {
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+/* nav toggle */
+
+#nav-dropdown:checked~nav {
+    display: block;
+}
+
+#nav-dropdown {
     display: none;
 }
 
@@ -35,10 +54,12 @@ nav {
     text-transform: uppercase;
     color: #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding-top: 5px;
+    padding-left: 5px;
     padding-bottom: 5px;
-    border-bottom: 2px solid #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
 
 #nav-links-header {
@@ -70,7 +91,6 @@ body {
     flex-direction: column;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    color: #000000;
 }
 
 #main-section-page-one {
