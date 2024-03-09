@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 /* wildcard selector added to overide default browser settings - used from love running project*/
 * {
@@ -10,7 +10,7 @@
 
 /* general styles */
 header {
-    background-color: #7a0e0e;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,10 +21,6 @@ header {
     align-items: baseline;
 }
 
-h1 {
-    text-decoration: none;
-}
-
 /* styles for dropdown menu, mobile view */
 
 nav {
@@ -33,11 +29,12 @@ nav {
     right: 0;
     display: none;
     top: 100%;
+    box-shadow: 2px 2px black;
 }
 
 .nav-dropdown-label {
     padding-right: 10px;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* nav toggle */
@@ -56,7 +53,7 @@ nav {
     font-size: medium;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #000000;
     display: flex;
     justify-content: left;
     padding-top: 5px;
@@ -73,15 +70,20 @@ nav {
     align-content: center;
     padding-bottom: 1px;
     padding-top: 1px;
-    background-color: #7a0e0e;
+    padding-left: 5px;
+    background-color: #ffffff;
     border-radius: solid 2px;
-    text-decoration: none;
     list-style-type: none;
 }
 
 a:-webkit-any-link {
-    color: #ffffff;
+    color: #000000;
     font-weight: bolder;
+    text-decoration: none;
+}
+
+#social-media-links a:-webkit-any-link {
+    color: #ffffff;
 }
 
 footer ul a {
@@ -97,32 +99,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#main-section-page-one {
-    position: relative;
-}
-
 #first-heading {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 70%;
-    padding-top: 35px;
+    padding-top: 40px;
     padding-bottom: 5px;
     background-color: #000000;
-    color: #7a0e0e;
-
+    color: #ffffff;
+    order: 1;
 }
 
-.middle-image-one {
-    background: url(../images/latest\ guitar\ image.jpg) no-repeat;
-    height: 300px;
-    width: 100%;
-    position: relative;
-    background-size: cover;
+.acoustic-statement {
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: bold;
+    order: 2;
+    padding: 13px 13px 13px 13px;
 }
 
 #second-heading {
@@ -134,6 +129,7 @@ body {
     padding-bottom: 5px;
     background-color: #ffffff;
     color: #000000;
+    border: solid 2px black;
 }
 
 .bottom-image-one {
