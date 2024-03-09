@@ -11,7 +11,23 @@
 /* general styles */
 header {
     background-color: #7a0e0e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    padding-bottom: 3px;
 }
+
+/* styles for dropdown menu, mobile view */
+
+nav {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    display: none;
+}
+
+/* standard styling */
 
 #heading-one-mobile {
     font-size: medium;
@@ -28,7 +44,6 @@ header {
 #nav-links-header {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
     justify-content: space-between;
     align-content: center;
     padding-bottom: 1px;
@@ -36,6 +51,7 @@ header {
     background-color: #7a0e0e;
     border-radius: solid 2px;
     text-decoration: none;
+    list-style-type: none;
 }
 
 a:-webkit-any-link {
@@ -66,7 +82,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 70%;
-    padding-top: 5px;
+    padding-top: 35px;
     padding-bottom: 5px;
     background-color: #000000;
     color: #7a0e0e;
