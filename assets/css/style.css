@@ -21,6 +21,10 @@ header {
     align-items: baseline;
 }
 
+h1 {
+    text-decoration: none;
+}
+
 /* styles for dropdown menu, mobile view */
 
 nav {
@@ -64,7 +68,7 @@ nav {
 
 #nav-links-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-content: center;
     padding-bottom: 1px;
