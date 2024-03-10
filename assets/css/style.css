@@ -177,3 +177,47 @@ footer {
     justify-content: space-evenly;
     padding-top: 15px;
 }
+
+/* Media query: (768px and up) */
+
+@media screen and (min-width: 768px) {
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .acoustic-statement {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 12px 20px 12px;
+    }
+
+    .acoustic-image-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+    }
+
+    .electric-statement {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+    }
+    
+    .electric-image-one {
+        background: url(../images/electric\ guitar\ image\ one.jpg) no-repeat center center/cover;
+        width: 278px;
+        height: 278px;
+        border-radius: 50%;
+        position: relative;
+    }
+}
