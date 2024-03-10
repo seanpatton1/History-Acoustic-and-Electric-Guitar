@@ -117,7 +117,19 @@ body {
     font-size: 14px;
     font-weight: bold;
     order: 2;
-    padding: 13px 13px 13px 13px;
+    padding: 12px 12px 12px 12px;
+}
+
+.acoustic-image-one {
+    background: url(../images/concert\ guitar\ one.jpg) no-repeat center center/cover;
+    width: 278px;
+    height: 278px;
+    border-radius: 50%;
+    position: relative;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #second-heading {
@@ -132,15 +144,21 @@ body {
     border: solid 2px black;
 }
 
-.bottom-image-one {
-    background: url(../images/electric\ guitar\ 1.jpg) no-repeat;
-    height: 300px;
-    width: 100%;
-    position: relative;
-    background-size: cover;
+.electric-statement {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: bold;
+    order: 2;
+    padding: 12px 12px 12px 12px;
+}
+
+.electric-image-one {
+    background: url(../images/electric\ guitar\ image\ one.jpg) no-repeat center center/cover;
+    width: 278px;
+    height: 278px;
+    border-radius: 50%;
+    position: relative;
 }
 
 /* Footer */
