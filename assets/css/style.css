@@ -214,14 +214,19 @@ footer {
         border-radius: 50%;
         justify-content: center;
         align-content: center;
-        margin-right: 240px;
+        margin-left: 245px;
+    }
+
+    #second-heading {
+        margin-top: 180px;
     }
 
     .electric-image-one {
         display: flex;
         justify-content: center;
         align-content: center;
-        margin-right: 240px;
+        margin-left: 245px;
+        margin-top: 5px;
     }
 
     /* footer */
@@ -246,6 +251,7 @@ footer {
         display: flex;
         margin-right: 360px;
     }
+
     .electric-image-one {
         display: flex;
         margin-right: 360px;
@@ -258,16 +264,16 @@ footer {
 
     /* main content */
 
-/* styles for text and images */
+    /* styles for text and images */
 
-.acoustic-image-one {
-    display: flex;
-    margin-right: 10px;
-}
+    .acoustic-image-one {
+        display: flex;
+        margin-right: 10px;
+    }
 
-.electric-image-one {
-    display: flex;
-    margin-right: 360px;
-}
+    .electric-image-one {
+        display: flex;
+        margin-right: 360px;
+    }
 
 }
