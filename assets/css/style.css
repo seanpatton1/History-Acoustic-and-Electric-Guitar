@@ -19,6 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 /* styles for dropdown menu, mobile view */
@@ -45,6 +46,10 @@ nav {
 
 #nav-dropdown {
     display: none;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* standard styling */
@@ -86,10 +91,6 @@ a:-webkit-any-link {
     color: #ffffff;
 }
 
-footer ul a {
-    color: #ffffff;
-}
-
 /* Body */
 body {
     min-height: 100vh;
@@ -107,8 +108,11 @@ body {
     padding-top: 40px;
     padding-bottom: 5px;
     background-color: #000000;
-    color: #ffffff;
     order: 1;
+}
+
+#first-heading a:-webkit-any-link {
+    color: #ffffff;
 }
 
 .acoustic-statement {
@@ -199,6 +203,7 @@ footer {
     }
 
     .acoustic-image-one {
+        background: url(../images/concert\ guitar\ one.jpg) no-repeat center center/cover;
         display: flex;
         align-items: center;
         justify-content: center;
