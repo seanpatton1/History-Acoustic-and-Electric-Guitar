@@ -182,47 +182,71 @@ footer {
     padding-top: 15px;
 }
 
-/* Media query: (768px and up) */
+/* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
 
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-family: 'Roboto', sans-serif;
+    /* header */
+
+    #heading-one-mobile {
+        padding-left: 20px;
     }
 
-    .acoustic-statement {
+    nav {
+        display: block;
         position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px 12px 20px 12px;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
+
+    #nav-links-header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #nav-links-header>li {
+        padding-left: 1rem;
+    }
+
+    .nav-dropdown-label {
+        display: none;
+    }
+
+    /* main content */
 
     .acoustic-image-one {
         background: url(../images/concert\ guitar\ one.jpg) no-repeat center center/cover;
+        margin-left: 240px;
+        margin-bottom: 30px;
+        margin-top: 24px;
+    }
+
+    .acoustic-statement {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 30px;
+        align-items: end;
+        padding-top: 20px;
+    }
+
+    .electric-image-one {
+        background: url(../images/electric\ guitar\ image\ one.jpg) no-repeat center center/cover;
+        margin-left: 240px;
+        margin-bottom: 24px;
+        margin-top: 24px;
+        background-size: 100% 100%;
+        padding-bottom: 0px;
     }
 
     .electric-statement {
-        position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 30px;
+        align-items: end;
+        padding-top: 20px;
     }
-    
-    .electric-image-one {
-        background: url(../images/electric\ guitar\ image\ one.jpg) no-repeat center center/cover;
-        width: 278px;
-        height: 278px;
-        border-radius: 50%;
-        position: relative;
+
+        /* footer */
+
+        footer {
+            margin-top: 35px;
+        }
+
     }
-}
