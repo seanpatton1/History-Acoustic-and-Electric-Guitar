@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-dropdown-label {
-    padding-right: 10px;
+    padding-right: 20px;
     color: #000000;
 }
 
@@ -98,6 +98,7 @@ body {
     flex-direction: column;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
 }
 
 #first-heading {
@@ -117,6 +118,7 @@ body {
 
 .acoustic-statement {
     display: flex;
+    flex-direction: column-reverse;
     align-items: flex-end;
     font-size: 14px;
     font-weight: bold;
@@ -125,15 +127,15 @@ body {
 }
 
 .acoustic-image-one {
-    background: url(../images/concert\ guitar\ one.jpg) no-repeat center center/cover;
-    width: 278px;
-    height: 278px;
-    border-radius: 50%;
+    display: block;
     position: relative;
-    padding-bottom: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 270px;
+    height: 270px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: -140px;
 }
 
 #second-heading {
@@ -141,15 +143,17 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 70%;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 5px;
     background-color: #ffffff;
     color: #000000;
     border: solid 2px black;
+    margin-top: 20px;
 }
 
 .electric-statement {
     display: flex;
+    flex-direction: column-reverse;
     align-items: flex-end;
     font-size: 14px;
     font-weight: bold;
@@ -158,11 +162,13 @@ body {
 }
 
 .electric-image-one {
-    background: url(../images/electric\ guitar\ image\ one.jpg) no-repeat center center/cover;
-    width: 278px;
-    height: 278px;
+    display: flex;
+    width: 270px;
+    height: 270px;
+    padding-top: 10px;
     border-radius: 50%;
-    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 /* Footer */
@@ -187,6 +193,11 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* header */
+
+    header {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 
     #heading-one-mobile {
         padding-left: 20px;
@@ -216,7 +227,6 @@ footer {
     /* main content */
 
     .acoustic-image-one {
-        background: url(../images/concert\ guitar\ one.jpg) no-repeat center center/cover;
         margin-left: 240px;
         margin-bottom: 30px;
         margin-top: 24px;
@@ -229,7 +239,6 @@ footer {
     }
 
     .electric-image-one {
-        background: url(../images/electric\ guitar\ image\ one.jpg) no-repeat center center/cover;
         margin-left: 240px;
         margin-bottom: 24px;
         margin-top: 24px;
@@ -243,10 +252,51 @@ footer {
         padding-top: 20px;
     }
 
-        /* footer */
+    /* footer */
 
-        footer {
-            margin-top: 35px;
-        }
-
+    footer {
+        margin-top: 35px;
     }
+
+}
+
+/* Media query: laptops and desktops (992px and up) */
+
+@media screen and (min-width: 992px) {
+
+    /* Hover added to nav links on larger screens - used template from love running project */
+
+    #nav-links-header a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* styles for text and images */
+
+    .acoustic-image-one {
+        display: flex;
+        margin-left: 370px;
+    }
+
+    .acoustic-statement {
+        padding-left: 30px;
+    }
+
+    .electric-statement {
+        padding-left: 30px;
+    }
+
+    .electric-image-one {
+        display: flex;
+        margin-left: 370px;
+    }
+}
+
+/* Media query: laptops and desktops (992px and up) */
+
+@media screen and (min-width: 1440px) {
+
+/* main content */
+
+
+
+}
