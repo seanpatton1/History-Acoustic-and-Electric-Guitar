@@ -110,19 +110,20 @@ body {
     padding-bottom: 5px;
     background-color: #000000;
     order: 1;
+    width: 100%;
 }
 
 #first-heading {
     color: #ffffff;
 }
 
-.acoustic-image {
+#acoustic-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.electric-image {
+#electric-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,7 +225,7 @@ footer {
 
     /* main content */
 
-    .acoustic-image {
+    #acoustic-image {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -241,7 +242,7 @@ footer {
         font-size: 20px;
     }
 
-    .electric-image {
+    #electric-image {
         display: flex;
         align-items: center;
         justify-content: center;
