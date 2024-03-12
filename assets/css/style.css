@@ -157,7 +157,6 @@ body {
     padding-top: 10px;
     border-radius: 50%;
     padding-top: 10px;
-    margin-bottom: 12px;
 }
 
 /* styling to remove from mobile view */
@@ -378,4 +377,56 @@ footer {
         font-size: 30px;
     }
 
+}
+
+/* acoustic page */
+
+
+/* main */
+
+body {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#main-content-one {
+    display: flex;
+    margin-top: 20px;
+}
+
+#overview-one {
+    margin-left: 5px;
+}
+
+#heading-acoustic {
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px #3a3a3a;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#heading-two-acoustic {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#acoustic-list {
+    margin-left: 5px;
+}
+
+#overview-two {
+    margin-left: 5px;
+}
+
+#acoustic-musicians {
+    
 }
