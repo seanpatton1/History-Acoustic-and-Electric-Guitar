@@ -389,7 +389,7 @@ body {
     padding-left: 2px;
 }
 
-#main-content-one {
+#main-content-acoustic {
     display: flex;
     margin-top: 20px;
 }
@@ -399,7 +399,7 @@ body {
 }
 
 #heading-acoustic {
-    margin-top: 42px;
+    margin-top: 36px;
     display: flex;
     justify-content: center;
     border: solid 2px #3a3a3a;
@@ -428,5 +428,64 @@ body {
 }
 
 #acoustic-musicians {
-    
+    margin-left: 5px;
+}
+
+#last-statement-acoustic {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/* Electric Page */
+
+body {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#main-content-electric {
+    display: flex;
+    margin-top: 20px;
+}
+
+#overview-one {
+    margin-left: 5px;
+}
+
+#heading-electric {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px #3a3a3a;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#heading-two-electric {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#electric-list {
+    margin-left: 5px;
+}
+
+#overview-two {
+    margin-left: 5px;
+}
+
+#electric-musicians {
+    margin-left: 5px;
+}
+
+#last-statement-electric {
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
