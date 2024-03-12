@@ -392,6 +392,7 @@ body {
 #main-content-acoustic {
     display: flex;
     margin-top: 20px;
+    flex-direction: column;
 }
 
 #overview-one {
@@ -403,9 +404,6 @@ body {
     display: flex;
     justify-content: center;
     border: solid 2px #3a3a3a;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 #heading-two-acoustic {
@@ -414,9 +412,6 @@ body {
     margin-bottom: 10px;
     background-color: #3a3a3a;
     color: #ffffff;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 #acoustic-list {
