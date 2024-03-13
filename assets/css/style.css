@@ -120,7 +120,6 @@ body {
 
 #electric-image {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -157,13 +156,15 @@ body {
 /* styling to remove from mobile view */
 #quote-one {
     padding-left: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 #quote-two {
     padding-top: 5px;
     margin-top: 10px;
-    padding-left: 15px
+    padding-left: 15px;
+    font-size: 20px;
 }
 
 /* Footer */
@@ -219,6 +220,12 @@ footer {
     }
 
     /* main content */
+    /* used love running code to push footer down removing margin space issue */
+    main {
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
 
     #acoustic-image {
         display: flex;
@@ -238,11 +245,10 @@ footer {
     }
 
     #electric-image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         max-width: 370px;
         max-height: 370px;
+        padding-top: 30px;
+        justify-content: center;
     }
 
     #quote-two {
@@ -258,11 +264,7 @@ footer {
     }
 
     .acoustic-image-one {
-        display: flex;
-        border-radius: 50%;
-        justify-content: center;
-        align-content: center;
-        margin-top: 30px;
+        margin-top: 45px;
         margin-bottom: 30px;
         margin-left: 380px;
     }
@@ -273,15 +275,19 @@ footer {
 
     .electric-image-one {
         display: flex;
-        justify-content: center;
-        align-content: center;
         margin-top: 30px;
         margin-bottom: 30px;
         margin-left: 380px;
     }
 
     /* footer */
-
+    #social-media-links {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        font-size: 120%;
+    }
 
 }
 
@@ -348,32 +354,90 @@ footer {
 
     /* styles for text and images */
 
+    #acoustic-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
     .acoustic-image-one {
         display: flex;
         justify-content: center;
         align-content: center;
         margin-top: 35px;
         margin-bottom: 30px;
-        margin-left: 1525px;
+        margin-left: 592px;
     }
 
     #quote-one {
         font-size: 30px;
     }
 
+    #electric-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
     .electric-image-one {
         display: flex;
         justify-content: center;
-        align-content: center;
-        margin-top: 35px;
-        margin-bottom: 30px;
-        margin-left: 1525px;
+        margin-left: 593px;
     }
 
     #quote-two {
         font-size: 30px;
     }
 
+}
+
+/* Media query: laptops and desktops (1920px and up) */
+
+@media screen and (min-width: 1920px) {
+        /* Hover added to nav links on larger screens - used template from love running project */
+
+        #nav-links-header a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+    
+        /* main content */
+    
+        /* styles for text and images */
+    
+        #acoustic-image {
+            display: flex;
+            justify-content: center;
+            max-width: 850px;
+        }
+    
+        .acoustic-image-one {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-top: 35px;
+            margin-bottom: 30px;
+            margin-left: 1065px;
+        }
+    
+        #quote-one {
+            font-size: 30px;
+        }
+    
+        #electric-image {
+            display: flex;
+            justify-content: center;
+            max-width: 850px;
+        }
+    
+        .electric-image-one {
+            display: flex;
+            justify-content: center;
+            margin-left: 1065px;
+        }
+    
+        #quote-two {
+            font-size: 30px;
+        }
 }
 
 /* acoustic page */
