@@ -339,9 +339,9 @@ footer {
     }
 }
 
-/* Media query: laptops and desktops (1200px and up) */
+/* Media query: laptops and desktops (1280px and up) */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
 
     /* Hover added to nav links on larger screens - used template from love running project */
 
@@ -365,7 +365,7 @@ footer {
         align-content: center;
         margin-top: 35px;
         margin-bottom: 30px;
-        margin-left: 592px;
+        margin-left: 449px;
     }
 
     #quote-one {
@@ -381,13 +381,52 @@ footer {
     .electric-image-one {
         display: flex;
         justify-content: center;
-        margin-left: 593px;
+        margin-left: 449px;
     }
 
     #quote-two {
         font-size: 30px;
     }
 
+}
+
+/* Media query: laptops and desktops (1600px and up) */
+
+@media screen and (min-width: 1600px) {
+
+    #acoustic-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .acoustic-image-one {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        margin-bottom: 30px;
+        margin-left: 754px;
+    }
+
+    #quote-one {
+        font-size: 30px;
+    }
+
+    #electric-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .electric-image-one {
+        display: flex;
+        justify-content: center;
+        margin-left: 754px;
+    }
+
+    #quote-two {
+        font-size: 30px;
+    }
 }
 
 /* Media query: laptops and desktops (1920px and up) */
