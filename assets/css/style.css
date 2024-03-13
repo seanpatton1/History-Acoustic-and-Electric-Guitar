@@ -458,6 +458,7 @@ body {
 #overview-one {
     margin-left: 5px;
     padding: 5px 5px 5px 5px;
+    align-self: center;
 }
 
 #heading-acoustic {
@@ -511,6 +512,8 @@ body {
         margin: 1em auto;
         width: 80%;
         height: calc(.5625* 80vw);
+        max-width: 768px;
+        max-height: 432px;
     }
 
     /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
@@ -537,6 +540,8 @@ body {
         margin: 1em auto;
         width: 80%;
         height: calc(.5625* 80vw);
+        max-width: 992px;
+        max-height: 558px;
     }
 
     /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
@@ -566,11 +571,14 @@ body {
 /* Media query: laptops and desktops (1200px and up) */
 
 @media screen and (min-width: 1200px) {
+
     #iframe-container {
         display: block;
         margin: 1em auto;
         width: 80%;
         height: calc(.5625* 80vw);
+        max-width: 1200px;
+        max-height: 675px;
     }
 
     /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
@@ -652,6 +660,8 @@ body {
         margin: 1em auto;
         width: 80%;
         height: calc(.5625* 80vw);
+        max-width: 1920px;
+        max-height: 1080px;
     }
 
     /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
@@ -675,6 +685,18 @@ body {
 
 /* electric page */
 
+/* header styles */
+
+#heading-electric {
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px #3a3a3a;
+}
+
+
+/* Main content */
+
 body {
     padding-right: 0px;
     padding-left: 0px;
@@ -688,13 +710,7 @@ body {
 
 #overview-one-electric {
     margin-left: 5px;
-}
-
-#heading-electric {
-    margin-top: 17px;
-    display: flex;
-    justify-content: center;
-    border: solid 2px #3a3a3a;
+    padding: 5px 5px 5px 5px;
 }
 
 #heading-two-electric {
@@ -705,8 +721,8 @@ body {
     color: #ffffff;
 }
 
-#acoustic-history {
-    margin-left: 5px
+#electric-history {
+    padding: 3px 5px 10px 5px;
 }
 
 #iframe-container-electric {
@@ -727,6 +743,7 @@ body {
 
 #joe-one {
     margin-top: 5px;
+    padding: 5px 0px 5px 5px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -734,10 +751,12 @@ body {
 @media screen and (min-width: 768px) {
 
     #iframe-container-electric {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
+        display: block;
+        margin: 1em auto;
+        width: 80%;
+        height: calc(.5625* 80vw);
+        max-width: 768px;
+        max-height: 558px;
     }
 
     /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
@@ -765,12 +784,23 @@ body {
         margin-bottom: 10px;
     }
 
+    #sub-heading-electric {
+        align-self: center;
+    }
+
+    #electric-history {
+        padding: 10px 10px 10px 10px;
+        align-self: center;
+    }
+
 
     #iframe-container-electric {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
+        display: block;
+        margin: 1em auto;
+        width: 80%;
+        height: calc(.5625* 80vw);
+        max-width: 992px;
+        max-height: 558px;
     }
 
     /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
@@ -796,56 +826,389 @@ body {
     }
 }
 
+/* Media query: laptops and desktops (1200px and up) */
+
+@media screen and (min-width: 1200px) {
+
+    #overview-one-electric {
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    #joe-one {
+        margin-left: 5px;
+        padding-top: 10px;
+        align-self: center;
+        padding: 10px 10px 10px 10px;
+    }
+
+
+    #iframe-container-electric {
+        display: block;
+        margin: 1em auto;
+        width: 80%;
+        height: calc(.5625* 80vw);
+        max-width: 992px;
+        max-height: 558px;
+    }
+
+    /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
+    .joe-vid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #joe-one {
+        margin-left: 5px;
+        padding-top: 10px;
+
+    }
+
+    footer {
+        background-color: #000000;
+        color: white;
+        height: 50px;
+        margin-top: auto;
+    }
+}
+
+/* Media query: laptops and desktops (1920px and up) */
+
+@media screen and (min-width: 1920px) {
+    /* header styles for wider screen */
+
+    #heading-electric {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        border: solid 2px #3a3a3a;
+    }
+
+    #iframe-container-electric {
+        display: block;
+        margin: 1em auto;
+        width: 80%;
+        height: calc(.5625* 80vw);
+        max-width: 1920px;
+        max-height: 1080px;
+    }
+
+    /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
+    .joe-vid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #joe-one {
+        margin-left: 5px;
+        padding-top: 10px;
+
+    }
+
+    footer {
+        background-color: #000000;
+        color: white;
+        height: 50px;
+        margin-top: auto;
+    }
+
+}
+
 /* newsletter */
+body {
+    max-width: 100%;
+}
+
+#newsletter-heading {
+    margin-top: 20px;
+}
+
+#signup-page {
+    display: flex;
+    flex-grow: 1;
+}
+
+#signup-form>h2 {
+    display: flex;
+    flex-direction: column;
+}
 
 #newsletter {
-    background-position: center;
-    position: relative;
-    margin-top: 39px;
+    background: url(../images/background\ image\ signup.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 30px;
+    padding: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 114px;
+    max-width: 400px;
 }
 
-.text-input:hover {
-    border-color: #f16c6b;
+.join-button {
+    font-size: 120%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fafafa;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
-}
+/* footer */
+
+footer {
+    background-color: #000000;
+    color: white;
+    height: 50px;
+    margin-top: auto;
+} 
+
+
 
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
-    #newsletter {
-        background-position: center;
-        position: relative;
-        margin-top: 39px;
+    body {
+        max-width: 100%;
     }
 
     #newsletter-heading {
-        margin-top: 42px;
-        padding-left: 5px;
-        padding-right: 5px;
+        margin-top: 20px;
+    }
+
+    #signup-page {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #signup-form>h2 {
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 2px;
+    }
+
+    #newsletter {
+        background: url(../images/background\ image\ signup.webp);
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
     }
 
     #signup-form {
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.6);
-        padding: 30px;
+        padding: 25px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+        max-width: 400px;
+        margin-left: 96px;
     }
 
-    .text-input:hover {
-        border-color: #f16c6b;
+    .join-button {
+        font-size: 120%;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fafafa;
     }
 
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
+    /* footer */
+
+    footer {
+        background-color: #000000;
+        color: white;
+        height: 50px;
+        margin-top: auto;
+    }
+}
+
+/* Media query: laptops and desktops (992px and up) */
+
+@media screen and (min-width: 992px) {
+    body {
+        max-width: 100%;
+    }
+
+    #newsletter-heading {
+        margin-top: 20px;
+    }
+
+    #signup-page {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #signup-form>h2 {
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 2px;
+    }
+
+    #newsletter {
+        background: url(../images/background\ image\ signup.webp);
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+    }
+
+    #signup-form {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 25px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+        max-width: 400px;
+        margin-left: 215px;
+    }
+
+    .join-button {
+        font-size: 120%;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fafafa;
+    }
+
+    /* footer */
+
+    footer {
+        background-color: #000000;
+        color: white;
+        height: 50px;
+        margin-top: auto;
+    }
+}
+
+/* Media query: laptops and desktops (1200px and up) */
+
+@media screen and (min-width: 1200px) {
+    body {
+        max-width: 100%;
+    }
+
+    #newsletter-heading {
+        margin-top: 20px;
+    }
+
+    #signup-page {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #signup-form>h2 {
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 2px;
+    }
+
+    #newsletter {
+        background: url(../images/background\ image\ signup.webp);
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+    }
+
+    #signup-form {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 25px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+        max-width: 400px;
+        margin-left: 362px;
+    }
+
+    .join-button {
+        font-size: 120%;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fafafa;
+    }
+
+    /* footer */
+
+    footer {
+        background-color: #000000;
+        color: white;
+        height: 50px;
+        margin-top: auto;
+    }
+
+}
+
+/* Media query: laptops and desktops (1920px and up) */
+
+@media screen and (min-width: 1920px) {
+    body {
+        max-width: 100%;
+    }
+
+    #newsletter-heading {
+        margin-top: 20px;
+    }
+
+    #signup-page {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #signup-form>h2 {
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 2px;
+    }
+
+    #newsletter {
+        background: url(../images/background\ image\ signup.webp);
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+    }
+
+    #signup-form {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 25px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 250px;
+        max-width: 400px;
+        margin-left: 550px;
+    }
+
+    .join-button {
+        font-size: 120%;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fafafa;
+    }
+
+    /* footer */
+
+    footer {
+        background-color: #000000;
+        color: white;
+        height: 50px;
+        margin-top: auto;
     }
 }
