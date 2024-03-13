@@ -1,6 +1,6 @@
 # Guitar History 101
 
-![Pura Vida Spa mockup images](assets/readme-files/mockup-image.png)
+##image to be inserted of different screen sizes
 
 Guitar History 101 is a website crafted to provide users with a succinct initiation into acoustic and electric guitars. Each page dedicated to these instruments delivers historical perspectives, accompanied by a sample video showcasing acclaimed musicians like Tommy Emmanuel for acoustic and Joe Satriani for electric, alongside a brief overview of their backgrounds and stylistic approaches.
 
@@ -19,7 +19,7 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
     2. [Landing Page](#landing-page)
     3. [Acoustic Page](#treatments-page)
     4. [Electric Page](#book-now-page)
-    5. [Newsletter Page]
+    5. [Newsletter Page](#newsletter-page)
     6. [404 Error Page](#404-error-page)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
@@ -251,7 +251,7 @@ Google font - Oswald
 
         - 
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧]
 
 
 ## Finished Product
@@ -260,7 +260,7 @@ Page | Desktop version | Mobile version
 --- | --- | ---
 
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧]
 
 
 ## Deployment
@@ -301,7 +301,7 @@ Page | Desktop version | Mobile version
 ### Code
 
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧]
 
 
 ## Acknowledgements
