@@ -390,7 +390,46 @@ footer {
 
 }
 
-/* Media query: laptops and desktops (1600px and up) */
+/* Media query: desktops (1440px and up) */
+
+@media screen and (min-width: 1440px) {
+
+    #acoustic-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .acoustic-image-one {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        margin-bottom: 30px;
+        margin-left: 598px;
+    }
+
+    #quote-one {
+        font-size: 30px;
+    }
+
+    #electric-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .electric-image-one {
+        display: flex;
+        justify-content: center;
+        margin-left: 597px;
+    }
+
+    #quote-two {
+        font-size: 30px;
+    }
+}
+
+/* Media query: large desktops (1600px and up) */
 
 @media screen and (min-width: 1600px) {
 
@@ -440,6 +479,10 @@ footer {
 
     /* main content */
 
+    #first-heading {
+        margin-top: 11px;
+    }
+
     /* styles for text and images */
 
     #acoustic-image {
@@ -476,6 +519,59 @@ footer {
     #quote-two {
         font-size: 30px;
     }
+}
+
+/* Media query: laptops and desktops (2560px and up) */
+
+@media screen and (min-width: 2560px) {
+    #nav-links-header a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* main content */
+
+    #first-heading {
+        margin-top: 11px;
+    }
+
+    /* styles for text and images */
+
+    #acoustic-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .acoustic-image-one {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 35px;
+        margin-bottom: 30px;
+        margin-left: 2600px;
+    }
+
+    #quote-one {
+        font-size: 30px;
+    }
+
+    #electric-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .electric-image-one {
+        display: flex;
+        justify-content: center;
+        margin-left: 2600px;
+    }
+
+    #quote-two {
+        font-size: 30px;
+    }
+
+
 }
 
 /* acoustic page */
@@ -1011,7 +1107,7 @@ footer {
     color: white;
     height: 50px;
     margin-top: auto;
-} 
+}
 
 
 
