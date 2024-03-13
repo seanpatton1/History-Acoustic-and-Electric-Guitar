@@ -393,50 +393,50 @@ footer {
 /* Media query: laptops and desktops (1920px and up) */
 
 @media screen and (min-width: 1920px) {
-        /* Hover added to nav links on larger screens - used template from love running project */
+    /* Hover added to nav links on larger screens - used template from love running project */
 
-        #nav-links-header a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
-    
-        /* main content */
-    
-        /* styles for text and images */
-    
-        #acoustic-image {
-            display: flex;
-            justify-content: center;
-            max-width: 850px;
-        }
-    
-        .acoustic-image-one {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            margin-top: 35px;
-            margin-bottom: 30px;
-            margin-left: 1065px;
-        }
-    
-        #quote-one {
-            font-size: 30px;
-        }
-    
-        #electric-image {
-            display: flex;
-            justify-content: center;
-            max-width: 850px;
-        }
-    
-        .electric-image-one {
-            display: flex;
-            justify-content: center;
-            margin-left: 1065px;
-        }
-    
-        #quote-two {
-            font-size: 30px;
-        }
+    #nav-links-header a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* main content */
+
+    /* styles for text and images */
+
+    #acoustic-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .acoustic-image-one {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 35px;
+        margin-bottom: 30px;
+        margin-left: 1065px;
+    }
+
+    #quote-one {
+        font-size: 30px;
+    }
+
+    #electric-image {
+        display: flex;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .electric-image-one {
+        display: flex;
+        justify-content: center;
+        margin-left: 1065px;
+    }
+
+    #quote-two {
+        font-size: 30px;
+    }
 }
 
 /* acoustic page */
@@ -476,10 +476,10 @@ body {
 }
 
 #acoustic-history {
-    margin-left: 5px;
     padding: 5px 5px 5px 5px;
 }
 
+/* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
 #iframe-container {
     position: relative;
     width: 100%;
@@ -505,11 +505,12 @@ body {
 
 @media screen and (min-width: 768px) {
 
+    /* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
     #iframe-container {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
+        display: block;
+        margin: 1em auto;
+        width: 80%;
+        height: calc(.5625* 80vw);
     }
 
     /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
@@ -517,7 +518,6 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
         height: 100%;
     }
 
@@ -533,10 +533,10 @@ body {
 @media screen and (min-width: 992px) {
 
     #iframe-container {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
+        display: block;
+        margin: 1em auto;
+        width: 80%;
+        height: calc(.5625* 80vw);
     }
 
     /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
@@ -562,6 +562,116 @@ body {
     }
 
 }
+
+/* Media query: laptops and desktops (1200px and up) */
+
+@media screen and (min-width: 1200px) {
+    #iframe-container {
+        display: block;
+        margin: 1em auto;
+        width: 80%;
+        height: calc(.5625* 80vw);
+    }
+
+    /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
+    .tommy-vid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #tommy-one {
+        margin-left: 5px;
+        padding-top: 10px;
+
+    }
+
+    footer {
+        background-color: #000000;
+        color: white;
+        height: 50px;
+        margin-top: auto;
+    }
+
+}
+
+/* Media query: large desktops, wide screen (1920px and up) */
+
+@media screen and (min-width: 1920px) {
+    /* header styles for wider screen */
+
+    header {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 120%;
+    }
+
+    #heading-one-mobile {
+        padding-left: 20px;
+        font-size: 120%;
+    }
+
+    #heading-two-acoustic {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        background-color: #3a3a3a;
+        color: #ffffff;
+    }
+
+    /* main content */
+    #heading-acoustic {
+        margin-top: 23px;
+        display: flex;
+        justify-content: center;
+        border: solid 2px #3a3a3a;
+    }
+
+    #overview-one {
+        margin-left: 5px;
+        padding: 5px 5px 5px 5px;
+        align-self: center;
+    }
+
+    #acoustic-history {
+        margin-left: 5px;
+        padding: 5px 5px 5px 5px;
+        align-self: center;
+    }
+
+    #tommy-one {
+        margin-left: 5px;
+        padding: 5px 5px 10px 5px;
+        align-self: center;
+    }
+
+    #iframe-container {
+        display: block;
+        margin: 1em auto;
+        width: 80%;
+        height: calc(.5625* 80vw);
+    }
+
+    /* found code from stack overflow to ajust video https://stackoverflow.com/questions/24157940/iframe-height-auto-css */
+    .tommy-vid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer {
+        background-color: #000000;
+        color: white;
+        height: 50px;
+        margin-top: auto;
+    }
+
+}
+
 
 /* electric page */
 
