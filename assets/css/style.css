@@ -15,27 +15,24 @@ header {
     top: 0;
     width: 100%;
     z-index: 99;
-    padding-bottom: 3px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
-/* styles for dropdown menu, mobile view */
+/* styles for dropdown menu, mobile view - below code used from love-running*/
 
 nav {
     position: absolute;
     width: 100%;
-    right: 0;
     display: none;
     top: 100%;
-    box-shadow: 2px 2px black;
+    box-shadow: 0 2px 2px black;
 }
 
 .nav-dropdown-label {
     padding-right: 20px;
-    color: #000000;
 }
 
 /* nav toggle */
@@ -64,7 +61,6 @@ nav {
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
-    text-decoration: none;
     letter-spacing: 2px;
 }
 
@@ -99,18 +95,17 @@ body {
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     flex-grow: 1;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #first-heading {
     display: flex;
     justify-content: center;
-    align-items: center;
     font-size: 70%;
     padding-top: 40px;
     padding-bottom: 5px;
     background-color: #000000;
-    order: 1;
-    width: 100%;
 }
 
 #first-heading {
@@ -161,11 +156,14 @@ body {
 
 /* styling to remove from mobile view */
 #quote-one {
-    display: none;
+    padding-left: 15px;
+    padding-bottom: 5px;
 }
 
 #quote-two {
-    display: none;
+    padding-top: 5px;
+    margin-top: 10px;
+    padding-left: 15px
 }
 
 /* Footer */
@@ -178,8 +176,6 @@ footer {
 
 #social-media-links {
     display: flex;
-    flex-direction: row;
-    color: white;
     list-style-type: none;
     justify-content: space-evenly;
     padding-top: 15px;
@@ -386,8 +382,8 @@ footer {
 /* main */
 
 body {
-    padding-right: 2px;
-    padding-left: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 #main-content-acoustic {
@@ -504,8 +500,8 @@ body {
 /* electric page */
 
 body {
-    padding-right: 2px;
-    padding-left: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 #main-content-electric {
