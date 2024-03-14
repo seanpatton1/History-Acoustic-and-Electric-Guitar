@@ -676,9 +676,9 @@ body {
     #tommy-two {
         margin-top: 5px;
         padding: 5px 5px 10px 10px;
-    
+
     }
-    
+
 }
 
 /* Media query: laptops and desktops (992px and up) */
@@ -714,7 +714,7 @@ body {
     #tommy-two {
         margin-top: 5px;
         padding: 5px 5px 10px 10px;
-    
+
     }
 
     footer {
@@ -759,7 +759,7 @@ body {
     #tommy-two {
         margin-top: 5px;
         padding: 5px 5px 10px 10px;
-    
+
     }
 
     footer {
@@ -840,7 +840,7 @@ body {
     #tommy-two {
         margin-top: 5px;
         padding: 5px 5px 10px 10px;
-    
+
     }
 
     footer {
@@ -1559,4 +1559,40 @@ footer {
         margin-left: 15px;
     }
 
+}
+
+/* Media query: laptops and desktops (1920px and up) */
+
+@media screen and (min-width: 1920px) {
+
+    #main-one {
+        display: flex;
+        flex-direction: column;
+        background: url(../images/404\ error\ picture.webp);
+        background-size: cover;
+        background-position: 75%;
+        flex-grow: 1;
+    }
+
+    #error-heading {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 395px;
+        color: #fafafa;
+    }
+
+    #error-line {
+        display: flex;
+        justify-content: center;
+        color: #fafafa;
+        margin-left: 440px;
+    }
+
+    #home-link {
+        display: flex;
+        justify-content: center;
+        color: #fafafa;
+        margin-left: 15px;
+    }
 }
