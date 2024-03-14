@@ -88,6 +88,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 * The website itself has responsive design across mobile, tablet and desktop. Using different screen sizes for the desktop version
 
 * **Header**
+
 ![Header image](assets/readme-files/Header.png)
 
         - The header increases in size when viewed on a larger device.
