@@ -91,11 +91,11 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 ![Header image](assets/readme-files/Header.png)
 
-        - The header increases in size when viewed on a larger device.
+- The header increases in size when viewed on a larger device.
 
-        - I have used hover for the nav links when viewed on a desktop.
+- I have used hover for the nav links when viewed on a desktop.
 
-        - The current page you are on will show on the nav links bar with a line under it to help the user know what part of the website they are on.
+- The current page you are on will show on the nav links bar with a line under it to help the user know what part of the website they are on.
 
 * **Footer**
 ![Footer Image](assets/readme-files/footer.png)
