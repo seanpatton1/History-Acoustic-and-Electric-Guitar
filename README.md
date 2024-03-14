@@ -76,31 +76,63 @@ Black
 
 ### Typography
 
-Google font - Oswald
+I've chosen to implement the Ozwald font across the website, varying its textures and sizes as needed. The headings and navigation links feature a bolder variant of the font, while the main content on both the acoustic and electric pages adopts a lighter styling. In case the selected font fails to load, a sans-serif font serves as a backup.
 
 ### Basic Design
 
-
+I opted to sketch my design ideas for the website using pen and paper. This method of testing proved invaluable in helping me visualize my vision, especially considering this is my inaugural project. There were several iterations of the design before settling on the current one implemented on the website.
 
 ## Features
 
 ### General
 
+* The chosen colour scheme is varients of white and black with the other colours coming from the imaages used throughout the page
+
+* The website itself has responsive design across mobile, tablet and desktop. Using different screen sizes for the desktop version
 
 * **Header**
 
+* I have created a simple header showing what the website is about with nav links for each page.
+
+* The header increases in size when viewed on a larger device.
+
+* I have used hover for the nav links when viewed on a desktop.
+
+* The current page you are on will show on the nav links bar with a line under it to help the user know what part of the website they are on.
+
 * **Footer**
+
+* I have created a simple footer with social media links to all the usual social media networks.
+
+* I have used the images for each social media website indicating the brand - These were obtained through Font Awesome.
 
 ### Landing Page
 
+* The landing page is minimilistic with 2 clear headings for both acoutsic and electric guitar. The images used are clickable and take the user to the page of choice.
+
+* I used two different colours for both headings giving a beter flow and general design
+
 ### Acoustic Guitar Page
+
+* The acoustic page is structured so the user gets the brief insight into the instrument followed by a responsive video of a famous musician playing it. 
+
+* The page then give the user a breakdown of that musicians history and techniques used.
 
 ### Electric Guitar Page
 
+* The electric page follows the same design as the acoustic page to keep a consistent format helping the user expirience.
+
 ### Newsletter Page
+
+* The newsletter page design lands different to the previous pages. Due to the minimal content of the form I decided to used a background image of someone playing the guitar.
+
+* The newsletter for is centered in the page across devices with an opacity allowing the user to see the image through the form.
+
+* The newsletter for contrast makes it easy for the user to see the data on the form. 
 
 ### 404 Error Page
 
+* Still to do!!
 
 [Back to top ⇧]
 
@@ -108,6 +140,9 @@ Google font - Oswald
 ## Technologies Used
 
 ### Languages Used
+
+* HTML5(https://en.wikipedia.org/wiki/HTML5)
+* CSS(https://en.wikipedia.org/wiki/CSS)
 
 
 ### Frameworks, Libraries and Programs Used
