@@ -1,6 +1,6 @@
 # Guitar History 101
 
-##image to be inserted of different screen sizes
+![Gutiar history 101 responsive image](assets/readme-files/am%20I%20responsive.png)
 
 Guitar History 101 is a website crafted to provide users with a succinct initiation into acoustic and electric guitars. Each page dedicated to these instruments delivers historical perspectives, accompanied by a sample video showcasing acclaimed musicians like Tommy Emmanuel for acoustic and Joe Satriani for electric, alongside a brief overview of their backgrounds and stylistic approaches.
 
@@ -66,12 +66,9 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
 * As a customer, I want to locate social media links to external sources of information beyond the website.
 
 ### Color Scheme
-colours used
-#ffffff
-White
-#3a3a3a
-Black
-#000000
+![palette image](assets/readme-files/colour%20palette.png)
+
+The colours used on this website are variations of black (#3a3a3a and #000000) and white (#ffffff) which are used consistently throughout the website. The contrast comes from the video and images throughout the site. 
 
 
 ### Typography
@@ -91,48 +88,42 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 * The website itself has responsive design across mobile, tablet and desktop. Using different screen sizes for the desktop version
 
 * **Header**
+![Header image](assets/readme-files/Header.png)
 
-* I have created a simple header showing what the website is about with nav links for each page.
+        - The header increases in size when viewed on a larger device.
 
-* The header increases in size when viewed on a larger device.
+        - I have used hover for the nav links when viewed on a desktop.
 
-* I have used hover for the nav links when viewed on a desktop.
-
-* The current page you are on will show on the nav links bar with a line under it to help the user know what part of the website they are on.
+        - The current page you are on will show on the nav links bar with a line under it to help the user know what part of the website they are on.
 
 * **Footer**
+![Footer Image](assets/readme-files/footer.png)
 
-* I have created a simple footer with social media links to all the usual social media networks.
-
-* I have used the images for each social media website indicating the brand - These were obtained through Font Awesome.
+        - I have used the images for each social media website indicating the brand - These were obtained through Font Awesome. These go to each of the websites stated
 
 ### Landing Page
+![Landing Page](assets/readme-files/landing%20page.png)
 
-* The landing page is minimilistic with 2 clear headings for both acoutsic and electric guitar. The images used are clickable and take the user to the page of choice.
-
-* I used two different colours for both headings giving a beter flow and general design
+        - The landing page is minimilistic with 2 clear headings for both acoutsic and electric guitar. The images used are clickable and take the user to the page of choice.
 
 ### Acoustic Guitar Page
+![Acoustic page](assets/readme-files/acoustic-page.png)
 
-* The acoustic page is structured so the user gets the brief insight into the instrument followed by a responsive video of a famous musician playing it. 
-
-* The page then give the user a breakdown of that musicians history and techniques used.
+        - This page features a iframe video of the acoustic musician as an example (Tommy Emmanuel)
 
 ### Electric Guitar Page
+![Electric Page](assets/readme-files/electric-page.png)
 
-* The electric page follows the same design as the acoustic page to keep a consistent format helping the user expirience.
+        - This page features a iframe video of the electric musician as an example (Joe Satriani)
 
 ### Newsletter Page
-
-* The newsletter page design lands different to the previous pages. Due to the minimal content of the form I decided to used a background image of someone playing the guitar.
-
-* The newsletter for is centered in the page across devices with an opacity allowing the user to see the image through the form.
-
-* The newsletter for contrast makes it easy for the user to see the data on the form. 
+![Newsletter Page](assets/readme-files/newsletter-page.png)
+        - This page features a sign up form for a newsletter
 
 ### 404 Error Page
+![404 Error Page](assets/readme-files/404-error-page.png)
 
-* Still to do!!
+        - 404 error page has message telling the user they have entered in the wrong address and gives a clickable link to get hom
 
 [Back to top ⇧]
 
@@ -148,31 +139,28 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 ### Frameworks, Libraries and Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the font Oswald with sans-serif as a backup
+    - Google Fonts was used to import the font Oswald with sans-serif as a backup.
 
 * [Font Awesome](https://fontawesome.com/)
-     - Font Awesome was used for the social media links
+    - Font Awesome was used for the social media links.
 
-* [TinyPNG](https://tinypng.com/)
-    - 
+* [image converter](https://image.online-convert.com/)
+    - This site was used to convert images I have used to webp.
 
 * [GitPod](https://gitpod.io/)
-     - GitPod was used for writing code, committing, and then pushing to GitHub.
+    - GitPod was used for writing code, committing, and then pushing to GitHub.
 
 * [GitHub](https://github.com/)
-     - GitHub was used to store the project after pushing.
+    - GitHub was used to store the project after pushing.
 
 * [Pen and Pad design]
-     - I designed the website not on Balsamiq but on pen and paper.
+    - I designed the website not on Balsamiq but on pen and paper.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/#)
-    - Am I Responsive was used to check responsivness of the website on each page over multiple devices
-
-* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
-    - 
+    - Am I Responsive was used to check responsivness of the website on each page over multiple devices.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - Chrome DevTools was used during development process for code review and fix any visual errors throught the creation of the website
+    - Chrome DevTools was used during development process for code review and fix any visual errors throught the creation of the website.
 
 * [W3C Markup Validator](https://validator.w3.org/)
     - W3C Markup Validator was used to validate the HTML code.
@@ -189,23 +177,23 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 * As a customer, I want to be able to navigate the website to find information about both acoustic and electric guitars.
 
-     - 
+     - This information is readily available on both acoustic and electric pages
 
 * I want a brief overview of the instruments as a starter before I decide if I want to learn more.
 
-    - 
+    - The video examples provided give a indepth example of styles on the guitar which should inspire the user
 
 * As a customer, I want the option to get more information on the subject if I want to learn more.
 
-    - 
+    - You can sign up for the newsletter to get the most uptodate information
 
 * As a customer, I want to be able to see examples of the instruments sound to get a better idea of how they sound when played proffesionally.
 
-    - 
+    - The videos on this website have multiple applications and these videos show top level proffesionals play the instrument
 
 * As a customer, I want to find social media links to potential sources of information outwith the website.
 
-    - 
+    - Social media links give the user the option for further reading
 
 ### Code Validation
 
@@ -220,25 +208,48 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
     - **Landing Page**
 
+    - Mobile View
+
+    ![Lighthouse report mobile view](assets/readme-files/Mobile%20LP%20lighthouse%20score.png)
+
+    - Desktop View
+
+    ![Lighthouse report desktop view](assets/readme-files/Desktop%20LP%20lighthouse%20score.png)
     
+    - **Acoustic Page**
 
-    - **Treatments Page**
+    - Mobile View
 
-    
+    ![Lighthouse report mobile view](assets/readme-files/Mobile%20acoustic%20lighthouse%20score.png)
 
-    - **Book Now Page**
+    - Desktop View
 
-    
+    ![Lighthouse report desktop view](assets/readme-files/Desktop%20acoustic%20lighthouse%20score.png)
+
+    - **Electric Page**
+
+    - Mobile View
+
+    ![Lighthouse report mobile view](assets/readme-files/Mobile%20electric%20lighthouse%20score.png)
+
+    - Desktop View
+
+    ![Lighthouse report desktop view](assets/readme-files/Desktop%20electric%20lighthouse%20score.png)
 
     - **404 Error Page**
 
-    
+    ![Lighthouse report mobile view](assets/readme-files/mobile%20404%20eror%20lighthouse%20score.png)
+
+    - Desktop View
+
+    ![Lighthouse report desktop view](assets/readme-files/desktop%20404%20error%20lighthouse%20score.png)
+
 
 ### Tools Testing
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
-    - 
+    - Chrome dev tools was used throughout the development of the project, testing mostly CSS design with some minor changes in HTML to test structure.
 
 * Responsiveness
     
@@ -246,7 +257,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
     - [Responsive Design Checker](https://www.responsivedesignchecker.com/) 
     
-    - Chrome DevTool
+    - [Chrome DevTool](https://developer.chrome.com/docs/devtools)
 
 ### Manual Testing
 
@@ -254,7 +265,15 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
     - The website has been tested on multiple devices, including:
 
-        - 
+        - Galaxy fold - No issues
+
+        - Tablet - 768px and up
+
+        - Laptops - 992px, 1280px and 1920px
+
+        - Amazon Kind Fire
+
+        - Ipad Mini
 
 * Common Elements Testing
 
