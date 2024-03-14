@@ -637,9 +637,19 @@ body {
     padding: 5px 5px 5px 5px;
 }
 
+#tommy-two {
+    margin-top: 5px;
+    padding: 5px 5px 10px 5px;
+
+}
+
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
+
+    #acoustic-history {
+        padding: 5px 5px 10px 10px;
+    }
 
     /* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
     #iframe-container {
@@ -660,15 +670,24 @@ body {
     }
 
     #tommy-one {
-        margin-left: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 5px 5px 10px 10px;
     }
+
+    #tommy-two {
+        margin-top: 5px;
+        padding: 5px 5px 10px 10px;
+    
+    }
+    
 }
 
 /* Media query: laptops and desktops (992px and up) */
 
 @media screen and (min-width: 992px) {
+
+    #acoustic-history {
+        padding: 5px 5px 10px 10px;
+    }
 
     #iframe-container {
         display: block;
@@ -689,9 +708,13 @@ body {
     }
 
     #tommy-one {
-        margin-left: 5px;
-        padding-top: 10px;
+        padding: 5px 5px 10px 10px;
+    }
 
+    #tommy-two {
+        margin-top: 5px;
+        padding: 5px 5px 10px 10px;
+    
     }
 
     footer {
@@ -706,6 +729,10 @@ body {
 /* Media query: laptops and desktops (1200px and up) */
 
 @media screen and (min-width: 1200px) {
+
+    #acoustic-history {
+        padding: 5px 5px 10px 10px;
+    }
 
     #iframe-container {
         display: block;
@@ -726,9 +753,13 @@ body {
     }
 
     #tommy-one {
-        margin-left: 5px;
-        padding-top: 10px;
+        padding: 5px 5px 10px 10px;
+    }
 
+    #tommy-two {
+        margin-top: 5px;
+        padding: 5px 5px 10px 10px;
+    
     }
 
     footer {
@@ -784,12 +815,6 @@ body {
         align-self: center;
     }
 
-    #tommy-one {
-        margin-left: 5px;
-        padding: 5px 5px 10px 5px;
-        align-self: center;
-    }
-
     #iframe-container {
         display: block;
         margin: 1em auto;
@@ -806,6 +831,16 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
+    }
+
+    #tommy-one {
+        padding: 5px 5px 10px 10px;
+    }
+
+    #tommy-two {
+        margin-top: 5px;
+        padding: 5px 5px 10px 10px;
+    
     }
 
     footer {
@@ -856,6 +891,10 @@ body {
     color: #ffffff;
 }
 
+#sub-heading-electric {
+    padding: 5px 5px 5px 5px;
+}
+
 #electric-history {
     padding: 3px 5px 10px 5px;
 }
@@ -885,6 +924,10 @@ body {
 
 @media screen and (min-width: 768px) {
 
+    #electric-history {
+        padding: 3px 5px 10px 9px;
+    }
+
     #iframe-container-electric {
         display: block;
         margin: 1em auto;
@@ -905,8 +948,7 @@ body {
 
     #joe-one {
         margin-left: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        margin-top: 27px;
     }
 }
 
@@ -924,7 +966,7 @@ body {
     }
 
     #electric-history {
-        padding: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 14px;
         align-self: center;
     }
 
@@ -948,9 +990,8 @@ body {
     }
 
     #joe-one {
-        margin-left: 5px;
-        padding-top: 10px;
-
+        margin-left: 9px;
+        margin-top: -9px;
     }
 
     footer {
@@ -970,14 +1011,6 @@ body {
         margin-bottom: 10px;
     }
 
-    #joe-one {
-        margin-left: 5px;
-        padding-top: 10px;
-        align-self: center;
-        padding: 10px 10px 10px 10px;
-    }
-
-
     #iframe-container-electric {
         display: block;
         margin: 1em auto;
@@ -998,8 +1031,9 @@ body {
 
     #joe-one {
         margin-left: 5px;
-        padding-top: 10px;
-
+        padding-top: 16px;
+        padding-bottom: 17px;
+        margin-right: 5px;
     }
 
     footer {
