@@ -98,31 +98,37 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 - The current page you are on will show on the nav links bar with a line under it to help the user know what part of the website they are on.
 
 * **Footer**
+
 ![Footer Image](assets/readme-files/footer.png)
 
 - I have used the images for each social media website indicating the brand - These were obtained through Font Awesome. These go to each of the websites stated
 
 ### Landing Page
+
 ![Landing Page](assets/readme-files/landing%20page.png)
 
 - The landing page is minimilistic with 2 clear headings for both acoutsic and electric guitar. The images used are clickable and take the user to the page of choice.
 
 ### Acoustic Guitar Page
+
 ![Acoustic page](assets/readme-files/acoustic-page.png)
 
 - This page features a iframe video of the acoustic musician as an example (Tommy Emmanuel)
 
 ### Electric Guitar Page
+
 ![Electric Page](assets/readme-files/electric-page.png)
 
 - This page features a iframe video of the electric musician as an example (Joe Satriani)
 
 ### Newsletter Page
+
 ![Newsletter Page](assets/readme-files/newsletter-page.png)
 
 - This page features a sign up form for a newsletter
 
 ### 404 Error Page
+git 
 ![404 Error Page](assets/readme-files/404-error-page.png)
 
 - 404 error page has message telling the user they have entered in the wrong address and gives a clickable link to get hom
