@@ -100,33 +100,34 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 * **Footer**
 ![Footer Image](assets/readme-files/footer.png)
 
-        - I have used the images for each social media website indicating the brand - These were obtained through Font Awesome. These go to each of the websites stated
+- I have used the images for each social media website indicating the brand - These were obtained through Font Awesome. These go to each of the websites stated
 
 ### Landing Page
 ![Landing Page](assets/readme-files/landing%20page.png)
 
-        - The landing page is minimilistic with 2 clear headings for both acoutsic and electric guitar. The images used are clickable and take the user to the page of choice.
+- The landing page is minimilistic with 2 clear headings for both acoutsic and electric guitar. The images used are clickable and take the user to the page of choice.
 
 ### Acoustic Guitar Page
 ![Acoustic page](assets/readme-files/acoustic-page.png)
 
-        - This page features a iframe video of the acoustic musician as an example (Tommy Emmanuel)
+- This page features a iframe video of the acoustic musician as an example (Tommy Emmanuel)
 
 ### Electric Guitar Page
 ![Electric Page](assets/readme-files/electric-page.png)
 
-        - This page features a iframe video of the electric musician as an example (Joe Satriani)
+- This page features a iframe video of the electric musician as an example (Joe Satriani)
 
 ### Newsletter Page
 ![Newsletter Page](assets/readme-files/newsletter-page.png)
-        - This page features a sign up form for a newsletter
+
+- This page features a sign up form for a newsletter
 
 ### 404 Error Page
 ![404 Error Page](assets/readme-files/404-error-page.png)
 
-        - 404 error page has message telling the user they have entered in the wrong address and gives a clickable link to get hom
+- 404 error page has message telling the user they have entered in the wrong address and gives a clickable link to get hom
 
-[Back to top ⇧]
+[Back to top ⇧](#guitar-history-101)
 
 
 ## Technologies Used
@@ -169,7 +170,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
-[Back to top ⇧]
+[Back to top ⇧](#guitar-history-101)
 
 
 ## Testing
@@ -268,45 +269,43 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
         - Galaxy fold - No issues
 
-        - Tablet - 768px and up
+        - Tablet - 768px and up - no issues
 
-        - Laptops - 992px, 1280px and 1920px
+        - Laptops - 992px, 1280px and 1920px - no issues
 
-        - Amazon Kind Fire
+        - Amazon Kind Fire - no issues
 
-        - Ipad Mini
+        - Ipad Mini - no issus
 
-* Common Elements Testing
+* Elements Testing
 
     - All Pages
         
         - **Header**
-
-          -
+            - Header correct accross different devices - link works when clicking Guitar HIstory 101
 
         - **Navigation Bar**
+            - All nav bar links work and bring the user to the correct page
 
-            - 
-
-            
+        - **LP Clickable Images**
+            - Both images on the LP are clickable and take the user to the correct page
         
         - **Footer**
-        
-            - 
+            - footer links work and bring the user to the correct page
 
-    - Acoustic Page
+        - **Acoustic Page**
+            - Video link works and does not auto play when page loads. No issue when screen size changes.
 
-        - 
+        - **Electric Page**
+            - Video link works and does not auto play when page loads. No issue when screen size changes.
 
-    - Electric Page
+        - **Newsletter Page**
+            - I have tested the form and it brings back the correct info dump - used code institute link for form.
 
-        - 
+        - **404 Error Page**
+            - 404 error page works as expected when incorrect address is entered.
 
-    - 404 Error Page
-
-        - 
-
-[Back to top ⇧]
+[Back to top ⇧](#guitar-history-101)
 
 
 ## Finished Product
@@ -315,52 +314,50 @@ Page | Desktop version | Mobile version
 --- | --- | ---
 
 
-[Back to top ⇧]
+[Back to top ⇧](#guitar-history-101)
 
 
 ## Deployment
 
 * This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
 
-### GitHub Pages
-
-* Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
-
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
-
-    2. At the top of the Repository, locate the Settings button on the menu.
-
-        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
-
-    3. Scroll down the Settings page until you locate the Pages section.
-
-    4. Under Source, click the dropdown called None and select Master Branch.
-
-    5. The page will refresh automatically and generate a link to your website.
-
-[Back to top ⇧]
-
-
 ## Credits 
+
+* Images on website used from (https://pixabay.com/images/search/acoustic%20/)
 
 ### Content
 
-- All content was written by the developer.
+- Almost all content written by developer - quotes from musicians gained from google searches
 
 ### Media
 
-* 
+* [Pixabay](https://pixabay.com/)
+    - Both guitar images have been taken from this website
+    - 404 error page background image also taken from this website
 
-* 
+*  [Font Awesome](https://fontawesome.com/search)
+    - Social Media links used from font awesome
 
 ### Code
 
+- For the iframe videos on both acoustic and electric I referred to a YouTube video [Alan Simpson](https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson) to create the responsivness as the screen got larger - using height: calc(.5625* 80vw); - and moving this along with the calculation which works out aspect ratio as the screen gets larger.
 
-[Back to top ⇧]
+- I reffered to the love running project when styling my header and nav links using the code and editing to suit the project
 
+- I reffered to the love running project for the form and then edited where required. Basic structure of form used and removed code not required.
+
+- [YouTube](https://www.youtube.com/), [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) were used throughout the creation of this project.
+
+[Back to top ⇧](#guitar-history-101)
 
 ## Acknowledgements
 
+- I would like to start by acknowleging my girlfriend Martina, She has not seen me properly for the last while as I have dove headfirst into this project. SHe has supported me from the begining of the course and throughout this project.
 
+- I would like to also thank Marcel my mentor, he helped guide me and answered any questions I had while giving me an insight into how everything works and best approaches for the project.
 
-[Back to top ⇧](#pura-vida-spa)
+- I would also like to thank My work collegues as I bounced off ideas of the design while working on it which really helped whon in what I was going to do as the orginal design changed slightly upon talking to them about it.
+
+- Lastly I would like to thank my sister Zoe and her Husband for testing out the live project.
+
+[Back to top ⇧](#guitar-history-101)
