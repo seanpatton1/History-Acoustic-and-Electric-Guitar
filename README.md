@@ -310,8 +310,20 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 ## Finished Product
 
-Page | Desktop version | Mobile version
---- | --- | ---
+### Landing Page
+![Landing Page](assets/readme-files/landing%20page.png)
+
+### Acoustic Guitar Page
+![Acoustic page](assets/readme-files/acoustic-page.png)
+
+### Electric Guitar Page
+![Electric Page](assets/readme-files/electric-page.png)
+
+### Newsletter Page
+![Newsletter Page](assets/readme-files/newsletter-page.png)
+
+### 404 Error Page
+![404 Error Page](assets/readme-files/404-error-page.png)
 
 
 [Back to top ⇧](#guitar-history-101)
