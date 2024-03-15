@@ -193,11 +193,11 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 * As a customer, I want the option to get more information on the subject if I want to learn more.
 
-    - You can sign up for the newsletter to get the most uptodate information
+    - You can sign up for the newsletter to get the most up-to-date information
 
-* As a customer, I want to be able to see examples of the instruments sound to get a better idea of how they sound when played proffesionally.
+* As a customer, I want to be able to see examples of the instruments sound to get a better idea of how they sound when played professionally.
 
-    - The videos on this website have multiple applications and these videos show top level proffesionals play the instrument
+    - The videos on this website have multiple applications and these videos show top level professionals play the instrument
 
 * As a customer, I want to find social media links to potential sources of information outwith the website.
 
@@ -399,9 +399,9 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 - For the iframe videos on both acoustic and electric I referred to a YouTube video [Alan Simpson](https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson) to create the responsivness as the screen got larger - using height: calc(.5625* 80vw); - and moving this along with the calculation which works out aspect ratio as the screen gets larger.
 
-- I reffered to the love running project when styling my header and nav links using the code and editing to suit the project
+- I referred to the love running project when styling my header and nav links using the code and editing to suit the project
 
-- I reffered to the love running project for the form and then edited where required. Basic structure of form used and removed code not required.
+- I referred to the love running project for the form and then edited where required. Basic structure of form used and removed code not required.
 
 - [YouTube](https://www.youtube.com/), [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) were used throughout the creation of this project.
 
