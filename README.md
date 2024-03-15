@@ -234,6 +234,8 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
     ![Lighthouse report desktop view](assets/readme-files/Desktop-acoustic-lighthouse-score-ed.png)
 
+    * 78 score for best practise due to 3rd part cookies from YouTube
+
     - **Electric Page**
 
     - Mobile View
@@ -243,6 +245,8 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
     - Desktop View
 
     ![Lighthouse report desktop view](assets/readme-files/Desktop-electric-lighthouse-score-ed.png)
+
+    * 78 score for best practise due to 3rd part cookies from YouTube
 
     - **Newsletter Page**
 
@@ -263,7 +267,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
     - Desktop View
 
-    ![Lighthouse report desktop view](assets/readme-files/desktop-404-error-lighthouse-score%20ed.png)
+    ![Lighthouse report desktop view](assets/readme-files/desktop-404-error-lighthouse-score-ed.png)
 
 
 ### Tools Testing
