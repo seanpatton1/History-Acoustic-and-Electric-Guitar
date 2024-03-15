@@ -128,7 +128,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 - This page features a sign up form for a newsletter
 
 ### 404 Error Page
-git 
+
 ![404 Error Page](assets/readme-files/404-error-page.png)
 
 - 404 error page has message telling the user they have entered in the wrong address and gives a clickable link to get hom
