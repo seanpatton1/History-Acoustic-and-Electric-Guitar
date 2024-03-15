@@ -1,6 +1,6 @@
 # Guitar History 101
 
-![Gutiar history 101 responsive image](assets/readme-files/am%20I%20responsive.png)
+![Gutiar history 101 responsive image](assets/readme-files/am-I-responsive.png)
 
 Guitar History 101 is a website crafted to provide users with a succinct initiation into acoustic and electric guitars. Each page dedicated to these instruments delivers historical perspectives, accompanied by a sample video showcasing acclaimed musicians like Tommy Emmanuel for acoustic and Joe Satriani for electric, alongside a brief overview of their backgrounds and stylistic approaches.
 
@@ -66,7 +66,7 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
 * As a customer, I want to locate social media links to external sources of information beyond the website.
 
 ### Color Scheme
-![palette image](assets/readme-files/colour%20palette.png)
+![palette image](assets/readme-files/colour-palette.png)
 
 The website employs consistent variations of black (#3a3a3a and #000000) and white (#ffffff) hues across its design, with contrast provided by the inclusion of videos and images throughout the site. 
 
@@ -105,7 +105,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 ### Landing Page
 
-![Landing Page](assets/readme-files/landing%20page.png)
+![Landing Page](assets/readme-files/landing-page.png)
 
 - I've utilized images representing each social media platform's brand, sourced from Font Awesome. Clicking on these images directs users to the respective social media websites.
 
@@ -343,7 +343,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 ## Finished Product
 
 ### Landing Page
-![Landing Page](assets/readme-files/landing%20page.png)
+![Landing Page](assets/readme-files/landing-page.png)
 
 ### Acoustic Guitar Page
 ![Acoustic page](assets/readme-files/acoustic-page.png)
