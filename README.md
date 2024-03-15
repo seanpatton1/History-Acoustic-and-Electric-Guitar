@@ -252,7 +252,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
     - Mobile View
 
-    ![Lighthouse report mobile view](assets/readme-files/Mobile-newsletter-lighthouse-score-copy-ed.png)
+    ![Lighthouse report mobile view](assets/readme-files/Mobile-newsletter-lighthouse-score-ed.png)
 
     - Desktop View
 
