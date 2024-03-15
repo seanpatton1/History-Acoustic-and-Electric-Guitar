@@ -569,8 +569,6 @@ footer {
     #quote-two {
         font-size: 30px;
     }
-
-
 }
 
 /* acoustic page */
@@ -737,6 +735,8 @@ body {
         padding: 5px 5px 10px 10px;
     }
 
+    /* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
+
     #iframe-container {
         display: block;
         margin: 1em auto;
@@ -818,6 +818,8 @@ body {
         padding: 5px 5px 5px 5px;
         align-self: center;
     }
+
+    /* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
 
     #iframe-container {
         display: block;
@@ -903,6 +905,8 @@ body {
     padding: 3px 5px 10px 5px;
 }
 
+/* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
+
 #iframe-container-electric {
     position: relative;
     width: 100%;
@@ -932,6 +936,8 @@ body {
     #electric-history {
         padding: 3px 5px 10px 9px;
     }
+
+    /* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
 
     #iframe-container-electric {
         display: block;
@@ -976,6 +982,7 @@ body {
         align-self: center;
     }
 
+    /* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
 
     #iframe-container-electric {
         display: block;
@@ -1017,6 +1024,8 @@ body {
         margin-left: 5px;
         margin-bottom: 10px;
     }
+
+    /* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
 
     #iframe-container-electric {
         display: block;
@@ -1064,6 +1073,8 @@ body {
         border: solid 2px #3a3a3a;
     }
 
+    /* Iframe code found on Youtube https://www.youtube.com/watch?v=_whe7kKahkk&ab_channel=AlanSimpson */
+
     #iframe-container-electric {
         display: block;
         margin: 1em auto;
@@ -1099,6 +1110,9 @@ body {
 }
 
 /* newsletter */
+
+/* code used from love running for the form which was edited to suit the project */
+
 body {
     max-width: 100%;
 }
@@ -1152,11 +1166,12 @@ footer {
     margin-top: auto;
 }
 
-
-
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
+
+    /* code used from love running for the form which was edited to suit the project */
+
     body {
         max-width: 100%;
     }
@@ -1216,6 +1231,8 @@ footer {
 /* Media query: laptops and desktops (992px and up) */
 
 @media screen and (min-width: 992px) {
+
+    /* code used from love running for the form which was edited to suit the project */
     body {
         max-width: 100%;
     }
@@ -1275,6 +1292,9 @@ footer {
 /* Media query: desktops (1280px and up) */
 
 @media screen and (min-width: 1200px) {
+
+    /* code used from love running for the form which was edited to suit the project */
+
     body {
         max-width: 100%;
     }
@@ -1329,12 +1349,14 @@ footer {
         height: 50px;
         margin-top: auto;
     }
-
 }
 
 /* Media query: Desktop large (1920px and up) */
 
 @media screen and (min-width: 1920px) {
+
+    /* code used from love running for the form which was edited to suit the project */
+
     body {
         max-width: 100%;
     }
@@ -1394,6 +1416,8 @@ footer {
 /* 404 error page */
 
 /* main - general styles */
+
+/* looked at different 404 error pages to create this one based of of images seen. */
 
 #main-one {
     display: flex;
@@ -1458,7 +1482,6 @@ footer {
         justify-content: center;
         color: #fafafa;
     }
-
 }
 
 /* Media query: laptops and desktops (992px and up) */
@@ -1495,7 +1518,6 @@ footer {
         color: #fafafa;
         margin-right: 7px;
     }
-
 }
 
 /* Media query: desktops (1280px and up) */
