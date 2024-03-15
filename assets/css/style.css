@@ -151,7 +151,7 @@ body {
     border-radius: 50%;
 }
 
-/* styling to remove from mobile view */
+/* Quotes for landing page */
 #quote-one {
     padding-left: 15px;
     padding-bottom: 10px;
@@ -338,7 +338,7 @@ footer {
     }
 }
 
-/* Media query: laptops and desktops (1280px and up) */
+/* Media query: desktops (1280px and up) */
 
 @media screen and (min-width: 1280px) {
 
@@ -389,7 +389,7 @@ footer {
 
 }
 
-/* Media query: desktops (1440px and up) */
+/* Media query: large desktops (1440px and up) */
 
 @media screen and (min-width: 1440px) {
 
@@ -428,7 +428,7 @@ footer {
     }
 }
 
-/* Media query: large desktops (1600px and up) */
+/* Media query: slightly wider screen for desktops (1600px and up) */
 
 @media screen and (min-width: 1600px) {
 
@@ -467,7 +467,7 @@ footer {
     }
 }
 
-/* Media query: laptops and desktops (1920px and up) */
+/* Media query: Desktop large (1920px and up) */
 
 @media screen and (min-width: 1920px) {
     /* Hover added to nav links on larger screens - used template from love running project */
@@ -520,7 +520,7 @@ footer {
     }
 }
 
-/* Media query: laptops and desktops (2560px and up) */
+/* Media query: widescreen desktop (2560px and up) */
 
 @media screen and (min-width: 2560px) {
     #nav-links-header a:hover {
@@ -729,7 +729,7 @@ body {
 
 }
 
-/* Media query: laptops and desktops (1200px and up) */
+/* Media query: desktops (1200px and up) */
 
 @media screen and (min-width: 1200px) {
 
@@ -775,7 +775,7 @@ body {
 
 }
 
-/* Media query: large desktops, wide screen (1920px and up) */
+/* Media query: Desktop large (1920px and up) */
 
 @media screen and (min-width: 1920px) {
     /* header styles for wider screen */
@@ -1009,7 +1009,7 @@ body {
     }
 }
 
-/* Media query: laptops and desktops (1200px and up) */
+/* Media query: desktops (1280px and up) */
 
 @media screen and (min-width: 1200px) {
 
@@ -1052,7 +1052,7 @@ body {
     }
 }
 
-/* Media query: laptops and desktops (1920px and up) */
+/* Media query: Desktop large (1920px and up) */
 
 @media screen and (min-width: 1920px) {
     /* header styles for wider screen */
@@ -1272,7 +1272,7 @@ footer {
     }
 }
 
-/* Media query: laptops and desktops (1200px and up) */
+/* Media query: desktops (1280px and up) */
 
 @media screen and (min-width: 1200px) {
     body {
@@ -1332,7 +1332,7 @@ footer {
 
 }
 
-/* Media query: laptops and desktops (1920px and up) */
+/* Media query: Desktop large (1920px and up) */
 
 @media screen and (min-width: 1920px) {
     body {
@@ -1498,7 +1498,7 @@ footer {
 
 }
 
-/* Media query: laptops and desktops (1200px and up) */
+/* Media query: desktops (1280px and up) */
 
 @media screen and (min-width: 1200px) {
 
@@ -1534,7 +1534,7 @@ footer {
 
 }
 
-/* Media query: laptops and desktops (1920px and up) */
+/* Media query: Desktop large (1920px and up) */
 
 @media screen and (min-width: 1920px) {
 
@@ -1568,40 +1568,4 @@ footer {
         margin-left: 15px;
     }
 
-}
-
-/* Media query: laptops and desktops (1920px and up) */
-
-@media screen and (min-width: 1920px) {
-
-    #main-one {
-        display: flex;
-        flex-direction: column;
-        background: url(../images/404\ error\ picture.webp);
-        background-size: cover;
-        background-position: 75%;
-        flex-grow: 1;
-    }
-
-    #error-heading {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        margin-top: 395px;
-        color: #fafafa;
-    }
-
-    #error-line {
-        display: flex;
-        justify-content: center;
-        color: #fafafa;
-        margin-left: 440px;
-    }
-
-    #home-link {
-        display: flex;
-        justify-content: center;
-        color: #fafafa;
-        margin-left: 15px;
-    }
 }

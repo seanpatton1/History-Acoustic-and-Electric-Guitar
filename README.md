@@ -218,39 +218,39 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
     - Mobile View
 
-    ![Lighthouse report mobile view](assets/readme-files/Mobile%20LP%20lighthouse%20score.png)
+    ![Lighthouse report mobile view]
 
     - Desktop View
 
-    ![Lighthouse report desktop view](assets/readme-files/Desktop%20LP%20lighthouse%20score.png)
+    ![Lighthouse report desktop view]
     
     - **Acoustic Page**
 
     - Mobile View
 
-    ![Lighthouse report mobile view](assets/readme-files/Mobile%20acoustic%20lighthouse%20score.png)
+    ![Lighthouse report mobile view]
 
     - Desktop View
 
-    ![Lighthouse report desktop view](assets/readme-files/Desktop%20acoustic%20lighthouse%20score.png)
+    ![Lighthouse report desktop view]
 
     - **Electric Page**
 
     - Mobile View
 
-    ![Lighthouse report mobile view](assets/readme-files/Mobile%20electric%20lighthouse%20score.png)
+    ![Lighthouse report mobile view]
 
     - Desktop View
 
-    ![Lighthouse report desktop view](assets/readme-files/Desktop%20electric%20lighthouse%20score.png)
+    ![Lighthouse report desktop view]
 
     - **404 Error Page**
 
-    ![Lighthouse report mobile view](assets/readme-files/mobile%20404%20eror%20lighthouse%20score.png)
+    ![Lighthouse report mobile view]
 
     - Desktop View
 
-    ![Lighthouse report desktop view](assets/readme-files/desktop%20404%20error%20lighthouse%20score.png)
+    ![Lighthouse report desktop view]
 
 
 ### Tools Testing
@@ -277,11 +277,13 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
         - Tablet - 768px and up - no issues
 
-        - Laptops - 992px, 1280px and 1920px - no issues
+        - Laptops - 992px, 1280px - no issues
 
         - Amazon Kind Fire - no issues
 
         - Ipad Mini - no issues
+
+        - Media queries were used throughout where required depending on the content
 
 * Elements Testing
 
