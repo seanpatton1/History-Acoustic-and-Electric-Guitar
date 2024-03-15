@@ -17,13 +17,13 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Acoustic Page](#treatments-page)
-    4. [Electric Page](#book-now-page)
+    3. [Acoustic Page](#acoustic-guitar-page)
+    4. [Electric Page](#electric-guitar-page)
     5. [Newsletter Page](#newsletter-page)
     6. [404 Error Page](#404-error-page)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
-    2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+    2. [Libraries and Programs Used](#libraries-and-programs-used)
 4. [Testing](#testing)
     1. [Testing User Stories](#testing-user-stories)
     2. [Code Validation](#code-validation)
@@ -138,7 +138,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 * CSS(https://en.wikipedia.org/wiki/CSS)
 
 
-### Frameworks, Libraries and Programs Used
+### Libraries and Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
     - Google Fonts was used to import the font Oswald with sans-serif as a backup.
@@ -275,7 +275,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
         - Amazon Kind Fire - no issues
 
-        - Ipad Mini - no issus
+        - Ipad Mini - no issues
 
 * Elements Testing
 
@@ -306,6 +306,30 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
             - 404 error page works as expected when incorrect address is entered.
 
 [Back to top ⇧](#guitar-history-101)
+
+### Validator errors
+
+![Border Radius Error](assets/validator-errors/border-radius-error.png)
+
+* Border radius error at the beggining fixed by removing it from the code as it was not affecting anything, code was in while testing. 
+
+![Favicon Error](assets/validator-errors/favicon-error.png)
+
+* There was a typo in the head element, missing the letter s in sizes. Added in and fixed issue.
+
+![Iframe Error](assets/validator-errors/iframe-error.png)
+
+* Width of 100% is not a valid value in the iframe, I removed this and CSS added to ensure code works correctly.
+
+* Frameborder is now obsolete, to fix this I added border: none; to the code.
+
+![Image rename error](assets/validator-errors/img-rename-error.png)
+
+* file names fixed removing spaces to fix issue
+
+![Lighthouse jpeg error](assets/validator-errors/lighthouse-error-jpeg.png)
+
+* Wrong file type added to site, used [image converter](https://image.online-convert.com/) to convert to wepb which fixed the issue. Lighthouse screenshots in README confirming fix.
 
 
 ## Finished Product
