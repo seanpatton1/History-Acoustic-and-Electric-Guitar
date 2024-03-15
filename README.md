@@ -68,12 +68,12 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
 ### Color Scheme
 ![palette image](assets/readme-files/colour%20palette.png)
 
-The colours used on this website are variations of black (#3a3a3a and #000000) and white (#ffffff) which are used consistently throughout the website. The contrast comes from the video and images throughout the site. 
+The website employs consistent variations of black (#3a3a3a and #000000) and white (#ffffff) hues across its design, with contrast provided by the inclusion of videos and images throughout the site. 
 
 
 ### Typography
 
-I've chosen to implement the Ozwald font across the website, varying its textures and sizes as needed. The headings and navigation links feature a bolder variant of the font, while the main content on both the acoustic and electric pages adopts a lighter styling. In case the selected font fails to load, a sans-serif font serves as a backup.
+I've opted to utilize the Ozwald font throughout the website, adjusting its textures and sizes as required. Heading titles and navigation links showcase a more robust iteration of the font, whereas the primary content on both the acoustic and electric pages adopts a lighter appearance. Should the chosen font encounter loading issues, a sans-serif font acts as a fallback option.
 
 ### Basic Design
 
@@ -83,19 +83,19 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 ### General
 
-* The chosen colour scheme is varients of white and black with the other colours coming from the imaages used throughout the page
+* The selected color scheme primarily consists of variations of white and black, with additional colors derived from the images incorporated throughout the page.
 
-* The website itself has responsive design across mobile, tablet and desktop. Using different screen sizes for the desktop version
+* The website utilizes responsive design to ensure optimal display across mobile, tablet, and desktop devices. It adjusts seamlessly to various screen sizes, catering to a diverse range of users.
 
 * **Header**
 
 ![Header image](assets/readme-files/Header.png)
 
-- The header increases in size when viewed on a larger device.
+- The header enlarges proportionally when viewed on a larger device.
 
-- I have used hover for the nav links when viewed on a desktop.
+- On desktop, I've implemented hover effects for the navigation links.
 
-- The current page you are on will show on the nav links bar with a line under it to help the user know what part of the website they are on.
+- The navigation links bar indicates the current page with an underlined indicator, aiding users in identifying their location within the website.
 
 * **Footer**
 
@@ -107,31 +107,31 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 ![Landing Page](assets/readme-files/landing%20page.png)
 
-- The landing page is minimilistic with 2 clear headings for both acoutsic and electric guitar. The images used are clickable and take the user to the page of choice.
+- I've utilized images representing each social media platform's brand, sourced from Font Awesome. Clicking on these images directs users to the respective social media websites.
 
 ### Acoustic Guitar Page
 
 ![Acoustic page](assets/readme-files/acoustic-page.png)
 
-- This page features a iframe video of the acoustic musician as an example (Tommy Emmanuel)
+- This page includes an iframe video showcasing an acoustic musician as an example, featuring Tommy Emmanuel.
 
 ### Electric Guitar Page
 
 ![Electric Page](assets/readme-files/electric-page.png)
 
-- This page features a iframe video of the electric musician as an example (Joe Satriani)
+- This page showcases an iframe video featuring an electric musician as an example, highlighting Joe Satriani.
 
 ### Newsletter Page
 
 ![Newsletter Page](assets/readme-files/newsletter-page.png)
 
-- This page features a sign up form for a newsletter
+- On this page, there's a newsletter sign-up form available.
 
 ### 404 Error Page
 
 ![404 Error Page](assets/readme-files/404-error-page.png)
 
-- 404 error page has message telling the user they have entered in the wrong address and gives a clickable link to get hom
+- The 404 error page displays a message informing users that they've entered an incorrect address and provides a clickable link to return home.
 
 [Back to top ⇧](#guitar-history-101)
 
@@ -153,7 +153,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
     - Font Awesome was used for the social media links.
 
 * [image converter](https://image.online-convert.com/)
-    - This site was used to convert images I have used to webp.
+    - I utilized this website to convert the images I've employed into WebP format.
 
 * [GitPod](https://gitpod.io/)
     - GitPod was used for writing code, committing, and then pushing to GitHub.
@@ -335,7 +335,7 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 ![Lighthouse jpeg error](assets/validator-errors/lighthouse-error-jpeg.png)
 
-* Wrong file type added to site, used [image converter](https://image.online-convert.com/) to convert to wepb which fixed the issue. Lighthouse screenshots in README confirming fix.
+* Wrong file type added to site, used [image converter](https://image.online-convert.com/) to convert to wepb which fixed the issue. Lighthouse screenshots in README confirming fix in lighthouse section above.
 
 
 ## Finished Product
@@ -394,12 +394,12 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
 ## Acknowledgements
 
-- I would like to start by acknowleging my girlfriend Martina, She has not seen me properly for the last while as I have dove headfirst into this project. SHe has supported me from the begining of the course and throughout this project.
+- I'd like to begin by expressing my gratitude to my girlfriend, Martina. She hasn't had much of my attention lately as I've been fully immersed in this project. Martina has been with me since the beginning of the course and has supported me consistently throughout this project.
 
-- I would like to also thank Marcel my mentor, he helped guide me and answered any questions I had while giving me an insight into how everything works and best approaches for the project.
+- I also want to extend my gratitude to Marcel, my mentor. He provided invaluable guidance, answering all my questions and offering insights into how everything operates, along with the best approaches for the project.
 
-- I would also like to thank My work collegues as I bounced off ideas of the design while working on it which really helped whon in what I was going to do as the orginal design changed slightly upon talking to them about it.
+- I'd also like to express my appreciation to my colleagues at work. Bouncing ideas off them during the design process was invaluable, as their input helped shape the direction of the project. Conversations with them led to slight changes in the original design, enriching the final outcome.
 
-- Lastly I would like to thank my sister Zoe and her Husband for testing out the live project.
+- Finally, I would like to express my gratitude to my sister Zoe and her husband, Paul, for testing out the live project.
 
 [Back to top ⇧](#guitar-history-101)
