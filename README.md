@@ -218,39 +218,52 @@ I opted to sketch my design ideas for the website using pen and paper. This meth
 
     - Mobile View
 
-    ![Lighthouse report mobile view]
+    ![Lighthouse report mobile view](assets/readme-files/Mobile-LP-lighthouse-score-ed.png)
 
     - Desktop View
 
-    ![Lighthouse report desktop view]
+    ![Lighthouse report desktop view](assets/readme-files/Desktop-LP-lighthouse-score-ed.png)
     
     - **Acoustic Page**
 
     - Mobile View
 
-    ![Lighthouse report mobile view]
+    ![Lighthouse report mobile view](assets/readme-files/Mobile-acoustic-lighthouse-score-ed.png)
 
     - Desktop View
 
-    ![Lighthouse report desktop view]
+    ![Lighthouse report desktop view](assets/readme-files/Desktop-acoustic-lighthouse-score-ed.png)
 
     - **Electric Page**
 
     - Mobile View
 
-    ![Lighthouse report mobile view]
+    ![Lighthouse report mobile view](assets/readme-files/Mobile-electric-lighthouse-score-ed.png)
 
     - Desktop View
 
-    ![Lighthouse report desktop view]
+    ![Lighthouse report desktop view](assets/readme-files/Desktop-electric-lighthouse-score-ed.png)
+
+    - **Newsletter Page**
+
+    - Mobile View
+
+    ![Lighthouse report mobile view](assets/readme-files/Mobile-newsletter-lighthouse-score-copy-ed.png)
+
+    - Desktop View
+
+    ![Lighthouse report desktop view](assets/readme-files/Desktop-newsletter-lighthouse-score-ed.png)
+
 
     - **404 Error Page**
 
-    ![Lighthouse report mobile view]
+    - Mobile View
+
+    ![Lighthouse report mobile view](assets/readme-files/mobile-404-eror-lighthouse-score-ed.png)
 
     - Desktop View
 
-    ![Lighthouse report desktop view]
+    ![Lighthouse report desktop view](assets/readme-files/desktop-404-error-lighthouse-score%20ed.png)
 
 
 ### Tools Testing
