@@ -13,7 +13,7 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
     2. [User Stories](#user-stories)
     3. [Color Scheme](#color-scheme)
     4. [Typography](#typography)
-    5. [Basic Design](#basic-designs)
+    5. [Basic Design](#basic-design)
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
