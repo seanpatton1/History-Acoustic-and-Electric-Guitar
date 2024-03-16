@@ -13,7 +13,7 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
     2. [User Stories](#user-stories)
     3. [Color Scheme](#color-scheme)
     4. [Typography](#typography)
-    5. [Basic Design](#wireframes)
+    5. [Basic Design](#basic-designs)
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
@@ -78,6 +78,26 @@ I've opted to utilize the Ozwald font throughout the website, adjusting its text
 ### Basic Design
 
 I opted to sketch my design ideas for the website using pen and paper. This method of testing proved invaluable in helping me visualize my vision, especially considering this is my inaugural project. There were several iterations of the design before settling on the current one implemented on the website.
+
+![LP design one](assets/readme-files/lp-design-one.png)
+
+* First design LP
+
+![LP final](assets/readme-files/lp-design-one.png)
+
+* final design LP
+
+![acoustic and electric pages](assets/readme-files/acoustic-electric.png)
+
+* Acoustic and Electric design
+
+![Newsletter page](assets/readme-files/newsletter.png)
+
+* Newsletter design
+
+![404 error page](assets/readme-files/404.png)
+
+* 404 error page
 
 ## Features
 
