@@ -105,3 +105,31 @@ footer .nav-link:hover {
 footer .border-bottom {
   border-color: #8A5A44 !important;
 }
+
+@media (max-width: 768px) {
+.hero {
+  height: calc(100vh - 225px);
+  background: url('/assets/images/hero-image.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+.hero {
+  height: calc(100vh - 229px);
+  background: url('/assets/images/hero-image.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
