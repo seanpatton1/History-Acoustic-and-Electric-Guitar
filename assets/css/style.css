@@ -122,6 +122,7 @@ footer .border-bottom {
   margin-top: 5px;
 }
 
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -132,4 +133,16 @@ footer .border-bottom {
   align-items: center;
   justify-content: center;
 }
+}
+
+/* Acoustic Page */
+
+.background-acoustic {
+  background-color: #EDE7D9;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
 }

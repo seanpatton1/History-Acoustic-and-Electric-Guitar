@@ -40,7 +40,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-vintage">
+      <nav class="navbar navbar-expand-lg bg-vintage border-bottom border-4 border-vintage-border">
         <div class="container-fluid">
           <a
             class="navbar-brand text-uppercase fs-3 fw-bolder"
@@ -90,7 +90,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="container-flex flex-grow-1 background-acoustic">
       <section id="acoustic-intro" class="py-5 text-center">
         <div class="container">
           <h1 class="mb-3">Acoustic Guitars</h1>
@@ -101,22 +101,158 @@
           </p>
         </div>
       </section>
-      <section id="acoustic-video">
-        <div class="text-center">
-          <h2>Acoustic Guitar Example</h2>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/S33tWZqXhnk?" title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-              </iframe>
+      <section class="container mb-5">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <h3 class="text-center mb-4">Some examples of acoustic guitars</h3>
+            <div class="carousel-item active">
+              <img
+                src="/assets/images/guitar-one.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Steel Guitar</h5>
+                <p>You can see here a steel string guitar.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/assets/images/guitar-two.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/assets/images/guitar-three.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+        </div>
+      </section>
+      <section class="container">
+        <div class="text-center mb-4">
+          <h2 class="mb-4">Nylon String Guitars</h2>
+          <p class="mb-4">
+            The nylon-string guitar traces its roots to the early 20th century,
+            when traditional gut strings—made from animal intestines—became
+            increasingly scarce and expensive. A major turning point came during
+            World War II, when shortages led guitar makers to experiment with
+            synthetic alternatives. In the 1940s, American company DuPont
+            developed nylon, a durable and stable material that proved ideal for
+            guitar strings. Luthier Albert Augustine, working closely with
+            legendary classical guitarist Andrés Segovia, refined nylon strings
+            to match the tone and feel of gut while offering greater consistency
+            and longevity. This innovation transformed the classical guitar,
+            allowing for more reliable tuning, improved projection, and wider
+            accessibility. Today, the nylon-string guitar is central to
+            classical, flamenco, and Latin music, valued for its warm, mellow
+            tone and expressive dynamic range.
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/beLvpZziqCo?"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="container">
+        <div class="text-center mb-4">
+          <h2 class="mb-4">Steal String Guitars</h2>
+          <p class="mb-4">
+            The steel-string guitar emerged in the late 19th and early 20th
+            centuries as musicians sought a louder, brighter instrument suited
+            to ensemble playing and larger venues. While early acoustic guitars
+            used gut strings, American makers such as C.F. Martin & Co. began
+            designing instruments strong enough to withstand the higher tension
+            of steel strings. This led to key innovations like X-bracing, which
+            reinforced the soundboard and shaped the modern steel-string
+            acoustic guitar. Steel strings produced a sharper attack and greater
+            volume, making the instrument ideal for folk, blues, country, and
+            later rock music. As recording and live performance grew in
+            popularity, the steel-string guitar became a cornerstone of popular
+            music, valued for its clarity, projection, and rhythmic power.
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/cdkCB6czek8?"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
     </main>
     <!-- social media links-->
-    <footer class="py-3 fs-5">
+    <footer class="py-3 fs-5 border-top border-4 border-vintage-border">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
-          <aF
+          <a
             href="https://www.facebook.com/"
             target="_blank"
             rel="noopener"
@@ -133,8 +269,8 @@
             aria-label="Visit our Facebook page (opens in a new tab)"
             class="nav-link px-2 text-body-secondary"
             class="nav-link px-2 text-body-secondary"
-            >Twitter</a
-          >
+            >Twitter
+          </a>
         </li>
         <li class="nav-item">
           <a
@@ -155,6 +291,11 @@
     <!-- Font Awesome Kit-->
     <script
       src="https://kit.fontawesome.com/17fadc6c88.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
   </body>
