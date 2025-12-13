@@ -36,12 +36,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-vintage border-bottom border-4 border-vintage-border"
+        class="navbar navbar-expand-lg bg-vintage border-bottom border-4 border-vintage-border custom-font-header"
       >
         <div class="container-fluid">
           <a
@@ -92,19 +100,24 @@
         </div>
       </nav>
     </header>
-    <main class="container-flex flex-grow-1 background-acoustic">
-      <section id="acoustic-intro" class="py-3 text-center">
+    <main
+      class="container-flex flex-grow-1 background-acoustic lato-display-main"
+    >
+      <section id="acoustic-intro" class="py-2 text-center">
         <div class="container">
-          <h1 class="mb-3">Acoustic Guitars</h1>
+          <h1 class="mb-3 lato-display-headings">Acoustic Guitars</h1>
           <p>
-            Acoustic guitars are where it all began – wooden bodies, hollow
-            chambers, and strings that come to life without the need for
-            electricity.
+            This section explores the origins of the acoustic guitar, tracing
+            its roots and showcasing key examples through images and video.
+            Enjoy this short journey through its history.
           </p>
         </div>
       </section>
-      <section class="container mb-5">
-        <h3 class="text-center mb-4">Some examples of acoustic guitars</h3>
+      <section class="container mb-4">
+        <h3 class="text-center mb-4 lato-display-headings">
+          Here are some examples of acoustic guitars popular, with a great tone
+          and look.
+        </h3>
 
         <div
           id="carouselExampleCaptions"
@@ -155,9 +168,11 @@
                 class="d-block w-100"
                 alt="Martin D-28 acoustic guitar"
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption">
                 <h5>Martin – D-28</h5>
-                <p>Classic steel-string dreadnought.</p>
+                <p class="d-none d-md-block">
+                  Classic steel-string dreadnought.
+                </p>
               </div>
             </div>
 
@@ -167,9 +182,11 @@
                 class="d-block w-100"
                 alt="Taylor 214CE acoustic guitar"
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption">
                 <h5>Taylor 214CE</h5>
-                <p>Modern acoustic with bright, balanced tone.</p>
+                <p class="d-none d-md-block">
+                  Modern acoustic with bright, balanced tone.
+                </p>
               </div>
             </div>
 
@@ -179,9 +196,9 @@
                 class="d-block w-100"
                 alt="Gibson J-45 acoustic guitar"
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption">
                 <h5>Gibson – J-45</h5>
-                <p>Warm, full-bodied sound.</p>
+                <p class="d-none d-md-block">Warm, full-bodied sound.</p>
               </div>
             </div>
 
@@ -191,9 +208,11 @@
                 class="d-block w-100"
                 alt="Yamaha FG150F acoustic guitar"
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption">
                 <h5>Yamaha FG150F</h5>
-                <p>Reliable and affordable classic.</p>
+                <p class="d-none d-md-block">
+                  Reliable and affordable classic.
+                </p>
               </div>
             </div>
 
@@ -203,9 +222,11 @@
                 class="d-block w-100"
                 alt="Guild D-40 acoustic guitar"
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption">
                 <h5>Guild F412</h5>
-                <p>Powerful projection with rich lows.</p>
+                <p class="d-none d-md-block">
+                  Powerful projection with rich lows.
+                </p>
               </div>
             </div>
           </div>
@@ -234,7 +255,7 @@
       </section>
       <section class="container">
         <div class="text-center mb-4">
-          <h2 class="mb-4">Nylon String Guitars</h2>
+          <h2 class="mb-4 lato-display-headings">Nylon String Guitars</h2>
           <p class="mb-4">
             The nylon-string guitar traces its roots to the early 20th century,
             when traditional gut strings—made from animal intestines—became
@@ -251,21 +272,23 @@
             classical, flamenco, and Latin music, valued for its warm, mellow
             tone and expressive dynamic range.
           </p>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/beLvpZziqCo?"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+          <div class="ratio ratio-16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/beLvpZziqCo?"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
       <section class="container">
         <div class="text-center mb-4">
-          <h2 class="mb-4">Steal String Guitars</h2>
+          <h2 class="mb-4 lato-display-headings">Steel String Guitars</h2>
           <p class="mb-4">
             The steel-string guitar emerged in the late 19th and early 20th
             centuries as musicians sought a louder, brighter instrument suited
@@ -280,21 +303,25 @@
             popularity, the steel-string guitar became a cornerstone of popular
             music, valued for its clarity, projection, and rhythmic power.
           </p>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/cdkCB6czek8?"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+          <div class="ratio ratio-16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/cdkCB6czek8?"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
     </main>
     <!-- social media links-->
-    <footer class="py-3 fs-5 border-top border-4 border-vintage-border">
+    <footer
+      class="py-3 fs-5 border-top border-4 border-vintage-border custom-font-header"
+    >
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
           <a

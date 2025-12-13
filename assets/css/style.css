@@ -13,6 +13,30 @@ main {
   flex: 1;
 }
 
+/* fonts */
+
+/* nav and footer styles */
+.custom-font-header {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lato-display-headings {
+  font-family: "lato", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-display-main {
+  font-family: "lato", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* Home Page Styles */
 
 .bg-vintage {
@@ -150,4 +174,35 @@ footer .border-bottom {
 .carousel-pictures img {
   height: 100%;
   object-fit: cover;
+}
+
+.carousel-pictures .carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 0.5rem 1rem;
+  border-radius: 100rem;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+
+  .carousel-pictures img {
+  height: auto;
+  object-fit: contain;
+}
+
+.carousel-pictures,
+.carousel-pictures .carousel-inner,
+.carousel-pictures .carousel-item {
+  height: auto;
+}
+
+.carousel-pictures img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carousel-pictures .carousel-caption {
+  top: 5.3rem;
+}
 }
