@@ -141,8 +141,13 @@ footer .border-bottom {
   background-color: #EDE7D9;
 }
 
-.carousel-item img {
-  width: 100%;
-  height: 600px;
+.carousel-pictures,
+.carousel-pictures .carousel-inner,
+.carousel-pictures .carousel-item {
+  height: 520px;
+}
+
+.carousel-pictures img {
+  height: 100%;
   object-fit: cover;
 }
