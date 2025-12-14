@@ -183,9 +183,15 @@ footer .border-bottom {
   display: inline-block;
 }
 
+.reading-width {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 768px) {
 
-  .carousel-pictures img {
+.carousel-pictures img {
   height: auto;
   object-fit: contain;
 }
@@ -202,7 +208,7 @@ footer .border-bottom {
   object-fit: contain;
 }
 
-.carousel-pictures .carousel-caption {
-  top: 5.3rem;
+.mobile-view {
+  margin-top: -25px;
 }
 }
